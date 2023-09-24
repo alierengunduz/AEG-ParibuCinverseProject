@@ -1,0 +1,519 @@
+[
+  {
+    "id": 1,
+    "title": "Paribu Cineverse 14 burda",
+    "adress": "14 Burda, Paşaköy Mah. D-100 Karayolu Cad. No: 8-16, 14100, Bolu"
+  },
+  {
+    "id": 2,
+    "title": "Paribu Cineverse 17 Burda",
+    "adress": "Barbaros Mah. Atatürk Cad. No: 207 - Çanakkale"
+  },
+  {
+    "id": 3,
+    "title": "Paribu Cineverse 41 Burda",
+    "adress": "41 Burda, Sanayi Mah. Ömer Türkçakal Bulvarı No: 7, 41040 İzmit, Kocaeli"
+  },
+  {
+    "id": 4,
+    "title": "Paribu Cineverse A Plus",
+    "adress": "Ataköy A Plus, Adnan Kahveci Bulvarı 6.Kısım, Ataköy - İstanbul",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/goldclass.svg"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Paribu Cineverse Acarkent Coliseum",
+    "adress": "Acarkent Sitesi 3. Kısım, 9. Cadde No:2, 34820 Beykoz/İstanbul",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/goldclass.svg"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Paribu Cineverse Akasya",
+    "adress": "Acıbadem Mahallesi Çeçen Sokak No:25 Üsküdar İstanbul",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/screenx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/4dx.svg",
+      "img3": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg",
+      "img4": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/imax.svg"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Paribu Cineverse Akbatı",
+    "adress": "İstanbul Avrupa Adresi: Akbatı Alışveriş ve Yaşam Merkezi, Sanayi mah. Esenkent mevkii 1655. Sok No:6, Esenyurt-İstanbul",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/mpx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Paribu Cineverse Akyaka Park",
+    "adress": "Akyaka Park AVM, Saray Mh. Dr.Adnan Büyükdeniz Cad No:7/1 Kapi No: 329 Ümraniye/Istanbul"
+  },
+  {
+    "id": 9,
+    "title": "Paribu Cineverse Anatolium Marmara",
+    "adress": "Soğanlık Yeni Mah, Soğanlık D-100 Kuzey Yanyol Cad. No:72, Kartal",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/premium-cinema.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/goldclass.svg"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Paribu Cineverse ANKAmall",
+    "adress": "ANKAmall No:2/242 06330 Akköprü - Ankara",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/imax.svg"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Paribu Cineverse Antalya Migros",
+    "adress": "Migros AVM. Meltem Mah. 100. Yıl Bulvarı. Antalya 07070",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/goldclass.svg"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Paribu Cineverse Antares AVM",
+    "adress": "Antares AVM, Halil Sezai Erkut Cad. No:121, Kasalar Mevkii, Etlik/ Ankara"
+  },
+  {
+    "id": 13,
+    "title": "Paribu Cineverse Aqua Florya",
+    "adress": "Aqua Florya AVM, Şenlikköy Mah. Yeşilköy Halkalı Cad.No 93 Florya / İstanbul",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/goldclass.svg"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Paribu Cineverse Armada",
+    "adress": "Armada AVM Eskişehir yolu 06520 Söğütözü / ANKARA",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/goldclass.svg"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Paribu Cineverse Atakule",
+    "adress": "Çankaya Caddesi No:1 Atakule 06690, Ankara",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/premium-cinema.svg"
+    }
+  },
+  {
+    "id": 16,
+    "title": "Paribu Cineverse Atlantis Batıkent",
+    "adress": "Atlantis Alışveriş ve Eğlence Merkezi, Başkent Bulvarı No:224, Batıkent-Ankara"
+  },
+  {
+    "id": 17,
+    "title": "Paribu Cineverse Avlu 34 AVM",
+    "adress": "Arnavutköy Merkez Mahallesi, 34275 Arnavutköy/Istanbul",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/screenx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/4dx.svg",
+      "img3": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg",
+      "img4": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/imax.svg"
+    }
+  },
+  {
+    "id": 18,
+    "title": "Paribu Cineverse Axis Kağıthane AVM",
+    "adress": "Axis Alışveriş Merkezi, Merkez Mah. Cendere Cad. No:28 Kat:3 No:120 Kağıthane"
+  },
+  {
+    "id": 19,
+    "title": "Paribu Cineverse Bodrum Midtown Alışveriş Merkezi",
+    "adress": "Midtown Alışveriş Merkezi Kemer Mevkii Ortakent, Bodrum",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/screenx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/4dx.svg"
+    }
+  },
+  {
+    "id": 20,
+    "title": "Paribu Cineverse Brandium",
+    "adress": "Dudullu Yolu Cad. Erenköy Gümrük Karşısı Küçükbakkalköy ATAŞEHİR"
+  },
+  {
+    "id": 21,
+    "title": "Paribu Cineverse Bursa Marka",
+    "adress": "Adresi Buraya Ekleyin",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/imax.svg"
+    }
+  },
+  {
+    "id": 22,
+    "title": "Paribu Cineverse Bursa Podyumpark",
+    "adress": "Cumhuriyet Mah. Nilüfer Hatun Cad. No:114",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/screenx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/4dx.svg",
+      "img3": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg",
+      "img4": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/imax.svg"
+    }
+  },
+  {
+    "id": 23,
+    "title": "Paribu Cineverse Capacity",
+    "adress": "Zeytinlik Mah. Fişekhane Cad. Bakırköy 34140"
+  },
+  {
+    "id": 24,
+    "title": "Paribu Cineverse Carrefour Bursa",
+    "adress": "Carrefour AVM, İzmiryolu Cad. No: 55, Odunluk Mevki, Nilüfer/ Bursa"
+  },
+  {
+    "id": 25,
+    "title": "Paribu Cineverse Cepa",
+    "adress": "CEPA AVM ESKİŞEHİR YOLU 7. KM ODTÜ KARŞISI SÖĞÜTÖZÜ ANKARA"
+  },
+  {
+    "id": 26,
+    "title": "Paribu Cineverse Cevahir",
+    "adress": "Cevahir AVM, Büyükdere Cad.Cevahir Avm.no:22,Kat 2,Şişli,İstanbul"
+  },
+  {
+    "id": 27,
+    "title": "Paribu Cineverse Çorum",
+    "adress": "Çepni, Kerebi Gazi 1. Sk. No:7, 19040 Çorum Merkez/ÇORUM"
+  },
+  {
+    "id": 28,
+    "title": "Paribu Cineverse Denizli SM",
+    "adress": "Denizli Sanat Merkezi, Altıntop Mahallesi, 20010 Merkezefendi/ Denizli"
+  },
+  {
+    "id": 29,
+    "title": "Paribu Cineverse Diyarbakır Ceylan",
+    "adress": "PEYAS MAH. URFA YOLU ÜZERİ NO:130 KAYAPINAR DİYARBAKIR"
+  },
+  {
+    "id": 30,
+    "title": "Paribu Cineverse Emaar Square Mall",
+    "adress": "Ünalan Mah. Ayazma Cad No:78 Kapı No:B1-N-15 Üskürdar İSTANBUL"
+  },
+  {
+    "id": 31,
+    "title": "Paribu Cineverse Erzurum MNG",
+    "adress": "LALAPAŞA MAH. SOMUNOĞLU CAD.NO:83 İÇ KAPI NO:181 YAKUTİYE"
+  },
+  {
+    "id": 32,
+    "title": "Paribu Cineverse Espark",
+    "adress": "Üniversite Cad. Eski Bağlar Mah. No.21 Eskişehir"
+  },
+  {
+    "id": 33,
+    "title": "Paribu Cineverse Eyüp - Axis İstanbul AVM",
+    "adress": "Topçular Mah., Osman Gazi Cd., 34055 Eyüp/ İstanbul"
+  },
+  {
+    "id": 34,
+    "title": "Paribu Cineverse Forum Aydın",
+    "adress": "Aydın Forum A.V.M,Merkez Mah. Müze Bulvarı. No:1"
+  },
+  {
+    "id": 35,
+    "title": "Paribu Cineverse Forum Bornova",
+    "adress": "FORUM BORNOVA AVM. KAZIM DİRİK MAH. 372 SOK.F1 BLOK BORNOVA-İZMİR"
+  },
+  {
+    "id": 36,
+    "title": "Paribu Cineverse Forum Çamlık",
+    "adress": "İncirli Pınar Caddesi, Demokrasi Meydanı Yanı, Çamlık/Denizli"
+  },
+  {
+    "id": 37,
+    "title": "Paribu Cineverse Forum Erzurum",
+    "adress": "Forum Erzurum AVM, Yavuz Sultan Selim Bulvarı, Solakzade Camii Yanı,No:43-25100 Yenişehir"
+  },
+  {
+    "id": 38,
+    "title": "Paribu Cineverse Forum Gaziantep",
+    "adress": "Yaprak Mahallesi, İstasyon Caddesi, Forum Gazıantep Alışveriş Merkezi, Şehitkamil/ Gaziantep"
+  },
+  {
+    "id": 39,
+    "title": "Paribu Cineverse Forum İstanbul",
+    "adress": "Forum İstanbul AVM Sağmalcılar Mah: SF Blok No:106 Bayrampaşa - İstanbul"
+  },
+  {
+    "id": 40,
+    "title": "Paribu Cineverse Forum Kayseri",
+    "adress": "Hunat Mah. Sivas Cad. 24/1 SF.L26 Kat:2 Melik Gazi - Kayseri"
+  },
+  {
+    "id": 41,
+    "title": "Paribu Cineverse Forum Mersin",
+    "adress": "Forum Avm, Güvenevler / 20 Mah. No.1 Kat. 3/ S33"
+  },
+  {
+    "id": 42,
+    "title": "Paribu Cineverse Forum Trabzon",
+    "adress": "Devlet Sahil Yolu Cad. 100.Yıl Parkı Yanı"
+  },
+  {
+    "id": 43,
+    "title": "Paribu Cineverse Gebze Center",
+    "adress": "Tatlıkuyu Mah. Gebze Center AVM No: 310 / 428 Gebze / Kocaeli"
+  },
+  {
+    "id": 44,
+    "title": "Paribu Cineverse Gordion",
+    "adress": "Gordion AVM,Eskişehir Yolu 16 km,Çağlayan Kavşağı,Çayyolu/ANKARA"
+  },
+  {
+    "id": 45,
+    "title": "Paribu Cineverse Historia",
+    "adress": "Vatan Cad. No:2 Aksaray / Fatih"
+  },
+  {
+    "id": 46,
+    "title": "Paribu Cineverse İstinyePark (İstanbul)",
+    "adress": "İSTİNYEPARK AVM İSTİNYE BAYIRI CAD. İSTİNYE-SARIYER"
+  },
+  {
+    "id": 47,
+    "title": "Paribu Cineverse İzmir Park",
+    "adress": "Güneşli Mahallesi Eşref Paşa Caddesi No : 408 KONAK"
+  },
+  {
+    "id": 48,
+    "title": "Paribu Cineverse Kale",
+    "adress": "Güven Mah. Londra Cad. No.89 Güngören- İstanbul"
+  },
+  {
+    "id": 49,
+    "title": "Paribu Cineverse Kanyon",
+    "adress": "Kanyon AVM Büyükdere Cad. No. 185 Levent"
+  },
+  {
+    "id": 50,
+    "title": "Paribu Cineverse Karşıyaka Hilltown",
+    "adress": "Karşıyaka Hilltown",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/screenx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/4dx.svg",
+      "img3": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg",
+      "img4": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/imax.svg"
+    }
+  },
+  {
+    "id": 51,
+    "title": "Paribu Cineverse Kayseri Park",
+    "adress": "Alparslan M. Eşref Bitlis Bulvarı 10/ 145"
+  },
+  {
+    "id": 52,
+    "title": "Paribu Cineverse Kent Plaza",
+    "adress": "Bedir Mah. Ataseven Cad. No:2/305 Selçuklu/KONYA",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/imax.svg"
+    }
+  },
+  {
+    "id": 53,
+    "title": "Paribu Cineverse Konak Pier",
+    "adress": "Konak Pier Alışveriş mrk. 35260 Konak"
+  },
+  {
+    "id": 54,
+    "title": "Paribu Cineverse M1 Adana AVM",
+    "adress": "M1 Merkez Avm No: 5 Seyhan / ADANA",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/screenx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/4dx.svg",
+      "img3": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg",
+      "img4": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/imax.svg"
+    }
+  },
+  {
+    "id": 55,
+    "title": "Paribu Cineverse Maltepe Hilltown",
+    "adress": "Aydınevler Mahallesi, Çamlıca Sitesi Yolu Sk., 34765 Maltepe/İstanbul"
+  },
+  {
+    "id": 56,
+    "title": "Paribu Cineverse Maltepe Piazza",
+    "adress": "Cevizli Mahallesi, Tugay Yolu Cd. No:71",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/screenx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/4dx.svg",
+      "img3": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg"
+    }
+  },
+  {
+    "id": 57,
+    "title": "Paribu Cineverse Manavgat",
+    "adress": "Sorgun, 8096 Sk. No:5, 07600 Manavgat/Antalya"
+  },
+  {
+    "id": 58,
+    "title": "Paribu Cineverse MarkAntalya",
+    "adress": "Tahılpazarı Mh. Şarampol Cd. MarkAntalya AVM. No:84 K:4 No:4 Muratpaşa/ ANTALYA"
+  },
+  {
+    "id": 59,
+    "title": "Paribu Cineverse Marmara Forum",
+    "adress": "D100 Yan Yol Marmara Forum Alışveriş Merkezi S Blok NO: 207 Osmaniye Bakırköy/İstanbul",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/screenx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/4dx.svg"
+    }
+  },
+  {
+    "id": 60,
+    "title": "Paribu Cineverse Marmara Park",
+    "adress": "Marmara Park Adresi: Güzelyurt mahallesi, 1. Cadde No:33A Esenyurt/İstanbul"
+  },
+  {
+    "id": 61,
+    "title": "Paribu Cineverse MaviBahçe",
+    "adress": "Mavişehir Mahallesi, Caher Dudayev Blv, 35540 Karşıyaka/ İzmir"
+  },
+  {
+    "id": 62,
+    "title": "Paribu Cineverse Metrogarden",
+    "adress": "Aşağı Dudullu Mh., Alemdağ Cd No:940, Ümraniye"
+  },
+  {
+    "id": 63,
+    "title": "Paribu Cineverse Metromall",
+    "adress": "Tunahan Mahallesi, Dumlupınar 30 Ağustos Cd. No:2, 06824 Etimesgut/Ankara"
+  },
+  {
+    "id": 64,
+    "title": "Paribu Cineverse Optimum İzmir",
+    "adress": "Optimum İzmir AVM, Akçay Cad. No: 101 Gaziemir 35410 İzmir"
+  },
+  {
+    "id": 65,
+    "title": "Paribu Cineverse Osmaniye",
+    "adress": "PARK 328 AVM Adnan Menderes Bulvarı Şair Abay Kunanbay Caddesi 67.Sokak No:3 OSMANİYE"
+  },
+  {
+    "id": 66,
+    "title": "Paribu Cineverse Panora",
+    "adress": "Panora AVM Turan Güneş Bulvarı No: 182/212 Çankaya",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/screenx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/4dx.svg",
+      "img3": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg",
+      "img4": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/imax.svg"
+    }
+  },
+  {
+    "id": 67,
+    "title": "Paribu Cineverse Park Afyon",
+    "adress": "Güvenevler Mah. Mareşal Fevzi Çakmak Bulvarı",
+    "extra": {
+      "img": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/screenx.svg",
+      "img2": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/4dx.svg",
+      "img3": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/d-box.svg",
+      "img4": "https://www.paribucineverse.com/assets/img/page-exclusive-halls-detail/saloon-item/imax.svg"
+    }
+  },
+  {
+    "id": 68,
+    "title": "Paribu Cineverse Pendorya",
+    "adress": "Pendorya AVM, Çamçeşme Mahallesi, Fabrika Sokak No:5 34899 Pendik/ İstanbul"
+  },
+  {
+    "id": 69,
+    "title": "Paribu Cineverse Piazza Kahramanmaraş",
+    "adress": "Şazi Bey Mah. Haydar Aliyev Bulvarı No:3 KAHRAMANMARAŞ"
+  },
+  {
+    "id": 70,
+    "title": "Paribu Cineverse Piazza Samsun",
+    "adress": "Çarşamba Cad. No: 52 Eski Otogar Mevkii Sanayi Sitesi Yanı / Samsun"
+  },
+  {
+    "id": 71,
+    "title": "Paribu Cineverse Podium Ankara",
+    "adress": "Podium AVM, Mehmet Akif Ersoy Mah. Bağdat Cad. No:60/B Yenimahalle/ Ankara"
+  },
+  {
+    "id": 72,
+    "title": "Paribu Cineverse Podium Kırıkkale",
+    "adress": "BAĞDAT CAD. ERENLER MAH. NO:6 YAHŞİHAN KIRIKKALE"
+  },
+  {
+    "id": 73,
+    "title": "Paribu Cineverse Point Bornova",
+    "adress": "POINT BORNOVA 4174 SOKAK NO:4 BAĞBURNU MEVKİİ"
+  },
+  {
+    "id": 74,
+    "title": "Paribu Cineverse Şanlıurfa Piazza",
+    "adress": "Karakoyunlu Mah. 11 Nisan Fuar Caddesi Şanlıurfa AVM No:42 / ZK-005 Merkez"
+  },
+  {
+    "id": 75,
+    "title": "Paribu Cineverse Serdivan",
+    "adress": "Serdivan AVM Arabacı Alanı Mah. Mert Sok. No:25 Serdivan"
+  },
+  {
+    "id": 76,
+    "title": "Paribu Cineverse Tarsu",
+    "adress": "TARSU AVM Adana bulvarı, Fevzi Çakmak mahallesi Kapı No:57 D:109 TARSUS-MERSİN"
+  },
+  {
+    "id": 77,
+    "title": "Paribu Cineverse Tekira",
+    "adress": "TEKİRA AVM AYDOĞDU MAH. HÜKÜMET CAD. NO:304 TEKİRDAĞ"
+  },
+  {
+    "id": 78,
+    "title": "Paribu Cineverse Tepe Nautilus",
+    "adress": "Nautilus AVM, Fatih Cad. No: 1 Acıbadem, Kadıköy/ İstanbul"
+  },
+  {
+    "id": 79,
+    "title": "Paribu Cineverse Trump",
+    "adress": "TRUMP TOWERS KARKUYUSU SOK. NO :19 34387 ŞİŞLİ"
+  },
+  {
+    "id": 80,
+    "title": "Paribu Cineverse Vadistanbul",
+    "adress": "Vadi İstanbul/Ayazağa/Sarıyer"
+  },
+  {
+    "id": 81,
+    "title": "Paribu Cineverse Van",
+    "adress": "VAN AVM, Ferhat mah. Cumhuriyet Bulvarı Eski Belediye Garajı, No:147 İpekyolu/ Van"
+  },
+  {
+    "id": 82,
+    "title": "Paribu Cineverse Vialand AVM",
+    "adress": "Yeşilpınar Mah Girne Caddesi No:11 / 1K18 - 2ZK43 Eyüp"
+  },
+  {
+    "id": 83,
+    "title": "Paribu Cineverse Viaport",
+    "adress": "Yenişehir Mah. Dedepaşa Cad. No:19 Via Port - Pendik"
+  },
+  {
+    "id": 84,
+    "title": "Paribu Cineverse Yeşilyurt",
+    "adress": "YEŞİLYURT AVM ATATÜRK BUL.DENİZEVLERİ MH. NO:154-4 ATAKUM-SAMSUN"
+  },
+  {
+    "id": 85,
+    "title": "Paribu Cineverse Zorlu Center",
+    "adress": "Zorlu Center AVM Beşiktaş / İstanbul"
+  }
+]

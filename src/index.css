@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+    border-bottom: 2px solid #fff;
+    color: darkgreen;
+}
+
+/* Stil dosyanıza veya global CSS dosyasına ekleyin */
+.ant-select-selection-item {
+    color: white; /* Metin rengi */
+    background-color: #374151; /* Arkaplan rengi (bg-gray-700'e karşılık gelen renk) */
+  }
+  
+  .white-label {
+    color: white !important; /* Metin rengi */
+    }
+
+    .selected-movie {
+      background-color: #95A724; /* Yeşil arka plan rengi */
+    }
+    
+/* Checkbox etiketi için özel stil */
+.ant-checkbox-wrapper .ant-checkbox-inner::after {
+  color: red !important;
+}
+
+/* Checkbox etiketinin yanındaki işaret için özel stil */
+.ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner::after {
+  color: blue !important;
+}
+
+.scroolGizle::-webkit-scrollbar {
+  display: none;
+}
+/* Tebrik.css */
+
+.ant-result-title,
+.ant-result-subtitle {
+  color: white !important;
+}
+
+
+
+
+
+
+
+  

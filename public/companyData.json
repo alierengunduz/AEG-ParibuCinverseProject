@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "img": "https://www.paribucineverse.com/Files/Campaigns/okula-donus/okula-donus-814x414px.jpg",
+    "title": "Okula-Donus-Doneminde-Dersimiz-Sinema-Kampanyasi",
+    "name" : "Okula Dönüş Döneminde Dersimiz Sinema Kampanyası",
+    "desc": "Paribu Cineverse’te Öğrencilere Salı ve Perşembe Günleri 30%’a varan indirimler!",
+    "date": "28 Eylül 2023",
+    "slugDate": "7 - 28 Eylül 2023",
+    "subTitle": "Paribu Cineverse’te Öğrencilere Salı ve Perşembe Günleri 30%’a varan indirimler!",
+    "sybTitleAlt": "Kampanya Koşulları:",
+    "slugDesc": {
+      "desc1": "Kampanya 07.09.2023 - 28.09.2023 tarihleri arasında geçerlidir.",
+      "desc2": "Kampanya sadece öğrenci bilet tiplerinde geçerlidir.",
+      "desc3": "Kampanyaya katılan misafirlerimizin öğrenci kimliklerini ibraz etmek zorundadır.",
+      "desc4": "Kampanya 2D, 3D, IMAX, Gold Class, 4DX, ScreenX formatlarında geçerlidir.",
+      "desc5": "Paribu Cineverse gişelerinden, web sitesinden ve mobil uygulamasından alınan tüm öğrenci biletlerinde geçerlidir",
+      "desc6": "CGV Mars Cinema Group kampanyada değişiklik yapma hakkını saklı tutar."
+    }
+  },
+
+  {
+    "id": 2,
+    "img": "https://www.paribucineverse.com/Files/Campaigns/Kampanya_Gorsellerinin_Yenilenmesi_540x200-06.jpg",
+    "title": "Her-Pazartesi-ve-Çarşamba-Paribu-Cineverse'te-Halk-Günü",
+    "name"  : "Her Pazartesi ve Çarşamba Paribu Cineverse'te Halk Günü",
+    "desc": "Her Pazartesi ve Çarşamba Sinema Biletlerinde İndirim Seni Bekliyor!",
+    "date": "31 Aralık 2023",
+    "slugDate": "01 Ocak 2023 - 31 Aralık 2023",
+    "subTitle": "Her Pazartesi ve Çarşamba Paribu Cineverse'te Halk Günü Her Pazartesi ve Çarşamba 2D ve 3D filmlerde 65 TL ile 105 TL arasında değişen özel bilet fiyatları, Paribu Cineverse'lerde seni bekliyor.",
+    "slugDesc": {
+      "desc1": "İndirim, Pazartesi ve Çarşamba günleri yapılan erken gösterimler ve özel gösterimler için geçerli değildir.",
+      "desc2": "Paribu Cineverse gişelerinden, kiosklarından, web sitesinden veya mobil uygulamasından alınacak biletlerde geçerlidir.",
+      "desc3": "Paribu Cineverse web sitesi ve mobil uygulamadan alınan kampanyalı bilet fiyatına hizmet bedeli dahil değildir. CGV Cinema Club üyelerinden hizmet bedeli alınmamaktadır.",
+      "desc4": "Paribu Cineverse Halk Günü indirimi başka indirimlerle birleştirilemez.",
+      "desc5": "Resmi tatil ve bayram günlerinde indirim geçerli değildir.",
+      "desc6": "3D filmlerde bilet fiyatına 3 TL yansıtılmaktadır.",
+      "desc7": "Sinema bileti kampanyası sadece 2D, 3D filmlerde geçerlidir. 4DX, 4DX 3D, ScreenX, IMAX, IMAX 3D, D-Box, Gold Class, SkyBox, Sky Auditorium Premium Cinema ve VIP salonlarda geçerli değildir.",
+      "desc8": "Atmos, MPX, MPX-3D ve Starium formatlarda 'Sinema Günü' indirimi geçerlidir.",
+      "desc9": "İndirim Paribu Cineverse Akasya, Paribu Cineverse Hilltown, Paribu Cineverse İstinyePark, Paribu Cineverse Zorlu, Paribu Cineverse Vadistanbul ve Paribu Cineverse Ataköy A Plus'ta geçerli değildir.",
+      "desc10": "CGV Mars Cinema Group indirimde değişiklik yapma ve iptal etme hakkını saklı tutar."
+    }
+  },
+  {
+    "id": 3,
+    "img": "https://www.paribucineverse.com/Files/V_Pwebslider540x200.jpg",
+    "title": "Paribu-Cineverse’te-AcaVIP-Güzel-Dönem-Başladı!",
+    "name" : "Paribu Cineverse’te AcaVIP Güzel Dönem Başladı!",
+    "desc": "Paribu Cineverse’te AcaVIP Güzel Dönem Başladı!",
+    "date": "31 Aralık 2023",
+    "slugDate": "31 Temmuz 2023 - 31 Aralık 2023",
+    "subTitle": "CGV Cinema Club üyesi yıl içerisinde 9 kere filme geliyor, VIP üye oluyor, AcaVIP ayrıcalıkların tadını çıkarıyor!",
+    "slugTitleAlt": "Paribu Cineverse mobil uygulamasını indir, VIP üyeliğine kaç film kaldığını öğren.",
+    "campanyName" :"VIP Üye Ayrıcalıkları Neler ?",
+    "slugDesc": {
+      "desc1": "Hoş geldin 30 CGV Para",
+      "desc2": "Cinefoto'da 1 Kere Hatıra Fotoğrafı Çektirme Hakkı",
+      "desc3": "Tek İçecekli Büyük Boy Mısır Menü'de %25 İndirim",
+      "desc4": "Ücretsiz Orta Boy Mısır",
+      "desc5": "3D Gözlüklerde 5 TL İndirim"
+    },
+    "slugExtraName" : "Nasıl VIP Olabilirim ?",
+    "slugExtra" : {
+      "desc1": "1 Temmuz 2022 - 30 Haziran 2023 veya 1 Ocak 2023 - 31 Aralık 2023 tarihleri arasında 9 ve üzeri kere sinemaya gelmiş olan CGV Cinema Club üyelerimiz VIP üye statüsüne geçmeye hak kazanacaklar.",
+      "desc2": "CGV Cinema Club üyeliği ile Paribu Cineverse gişelerinden, web sitesi veya mobil uygulaması üzerinden ve kiosklarından alınan tüm biletlerde geçerlidir.",
+      "desc3": "Sinemaya gelişlerde satın alınan biletlerin adedi VIP üyelik için gerekli olan 9 ve üzeri kere gelme koşulunu etkilememektedir.",
+      "desc4": "İşlem adedi 9’a tamamlandıktan itibaren yılın son gününe kadar VIP üyeliği geçerlidir.",
+      "desc5": "VIP üye miyim ? VIP üye olabilmek için kaç kez daha sinemaya gelmeniz gerektiğini Paribu Cineverse web sitesi veya mobil uygulaması üzerinden CGV Cinema Club üyeliğinizin profilim sayfasından takip edebilirsiniz.",
+      "desc6": "VIP üye olmak için gerekli olan 9 ve üzeri kere sinemaya gelme koşulunu tüm lokasyonlarda ve tüm filmlerde tamamlayabilirsiniz.",
+      "desc7" : "CGV Mars Cinema Group kampanyada değişiklik yapma ve iptal etme hakkını saklı tutar."
+    }
+  },
+  {
+    "id": 4,
+    "img": "https://www.paribucineverse.com/Files/2.jpg",
+    "title": "hepsinema-Film-Festival'i-Boyunca-Tüm-Paribu-Kullanıcılarına-Orta-Boy-Mısır-ve-Coca-Cola-Hediye!",
+    "name" :  "hepsinema Film Festival'i Boyunca tüm paribu kullancılarına orta boy mısır ve coca cola hediye!" ,
+    "desc": "Paribu'dan #hepsinema Film Festival'inde Orta Boy Mısır Menüsü Hediye!",
+    "date": "22 Eylül 2023",
+    "slugDate": "01 Ağustos 2023 - 22 Eylül 2023",
+    "subTitle": "Paribu üyesi olan herkese #hepsinema Film Festival'i boyunca orta boy mısır ve coca cola Paribu'dan hediye!",
+    "slugTitleAlt": "1 Ağustos - 22 Eylül tarihleri arasında Paribu üyeleri, 'PARİBU CINEVERSE #HEPSİNEMA' yazıp 0850 303 60 00'a SMS yolluyor, kodunu alıyor, orta boy mısır ve coca cola Paribu'dan hediye!",
+    "campanyName" :"Kampanya Koşulları;",
+    "slugDesc": {
+      "desc1": "Kampanya kodları sadece 01.08.2023 saat 00:01 ile 22.09.2023 saat 23:59 tarihleri arasında alınabilir.",
+      "desc2": "Alınacak kampanya kodları 01.08.2023 saat 00:01 ile 22.09.2023 saat 23:59 tarihleri arasında geçerlidir.",
+      "desc3": "Paribu Cineverse MarkAntalya kampanyaya dahil değildir.",
+      "desc4": "Kampanya kodu #hepsinema film festivali tarihleri boyunca Paribu Cineverse’lerde gösterimde olan tüm filmlerde kullanılabilir.",
+      "desc5": "Kampanya kodları 25 bin adetle sınırlıdır.",
+      "desc6": "Kampanya, kimlik doğrulamasını yapan tüm Paribu kullanıcıları için geçerlidir.",
+      "desc7": "Paribu kullanıcıları, kendilerine özel kodları almak için 'PARİBU CINEVERSE #HEPSİNEMA' yazıp 0850 303 60 00'e SMS göndermelidir.",
+      "desc8": "SMS ile gelen kampanya kodu yalnızca Paribu Cineverse’lerdeki büfelerden aktif edilebilir.",
+      "desc9": "Kampanya kodu ve sinema bileti gösterilerek Paribu Cineverse’lerdeki büfelerden orta boy mısır menü (orta boy mısır ve coca cola) alınabilir.",
+      "desc10": "Kampanya kodları tek kullanımlıktır. 1 kişi en fazla 1 kampanya kodu kullanma hakkına sahiptir.",
+      "desc11": "Kampanya kodları para ile satılamaz veya paraya çevrilemez.",
+      "desc12": "Kampanyadan sadece gerçek kişi olan yeni PARİBU kullanıcıları faydalanabilir, tüzel kişiler faydalanamaz.",
+      "desc13": "Kampanyaya katılan herkes, kampanya şartlarını okuyup anlayarak peşinen kabul etmiş sayılır.",
+      "desc14": "Kampanya kapsamında çıkabilecek her türlü uyuşmazlıkta PARİBU CINEVERSE’ün tüm kayıtları esas alınacaktır.",
+      "desc15": "Paribu Cineverse, kampanya süresini ve tüm şartlarını önceden haber vermeksizin tek taraflı olarak değiştirebilir ya da kampanyayı, kampanya başlamış olsa dahi iptal edebilir. Bu değişiklik ya da iptal, kampanyaya katılan kullanıcılara kazanılmış hak teşkil etmez.",
+      "desc16": "Kampanyaya katılmak isteyen kullanıcıların herhangi bir sebeple yaşayacakları aksaklıklardan PARİBU CINEVERSE mesul olmayacaktır ve bu aksaklık sebebiyle kullanıcı lehine kazanılmış hak doğmayacaktır."
+    },
+    "slugExtraName" : "Yukarıda yer alan tüm koşullar, her bir kullanıcı için aynı ve bağlayıcıdır. Oluşabilecek herhangi bir değişikliği takip etme yükümlülüğü kullanıcılarda olup PARİBU CINEVERSE'ün kullanıcıları olası değişiklikler hakkında bilgilendirme yükümlülüğü yoktur. Bu nedenle kullanıcılar, güncel koşul ve kuralları kendileri takip etmekle yükümlüdürler."    
+  },
+  {
+    "id": 5,
+    "img": "https://www.paribucineverse.com/Files/Paribu_Cineverse_1_Temmuz_Vip_Lansman_Video-KV_Calismasi_CGV-2023-52_540x200px.jpg",
+    "title": "CGV-Cinema-Club-Üyelerine-hepsinema-Festival-Filmleri-Kampanyası!",
+    "name" : "CGV Cinema Club Üyelerine #hepsinema Festival Filmleri Kampanyası!",
+    "desc": "CGV Cinema Club Üyelerine #hepsinema Festival Filmleri Kampanyası!",
+    "date": "30 Eylül 2023",
+    "slugDate": "19 Temmuz 2023 - 30 Eylül 2023",
+    "subTitle": "Festival Filmlerine Gelen CGV Cinema Club Üyeleri Kazanıyor!",
+    "slugTitleAlt" : "#hepsinema Film Festivali boyunca 5 kere festival filmine gel, kuponunu doldur, 50 CGV Para'yı kazan!",
+    "slugExtraName" : "Kampanya koşulları;",
+    "slugExtra" : {
+      "desc1": "Kampanya festival dönemi boyunca geçerli olacaktır.",
+      "desc2": "Festival filmlerine bilet alan herkes kampanyadan faydalanabilir.",
+      "desc3": "Festival filmine ilk bilet alımı esnasında kuponunuzu gişelerimizden talep edebilirsiniz.",
+      "desc4": "Festival kuponu saklanmalı ve festival filmlerine bilet alımlarında yetkili personele kaşeletilmelidir.",
+      "desc5": "Gişe, web veya mobil uygulama ve kiosk üzerinden festival filmlerine alınan tüm biletlerde geçerlidir.",
+      "desc7" : "Kampanya ödülü 50 CGV Para'nın kullanılabilmesi için CGV Cinema Club üyeliği gereklidir.",
+      "desc8" : "CGV Mars Cinema Group kampanyada değişiklik yapma hakkını saklı tutar."
+    }
+ 
+  },
+  {
+    "id": 6,
+    "img": "https://www.paribucineverse.com/Files/1sep2.png",
+    "title": "Paribu-Cineverse'te-hepsinema-Film-Festival'i-Başladı!",
+    "name" : "Paribu Cineverse'te #hepsinema Film Festival'i Başladı!",
+    "desc": "Her hafta yeni filmler, tek fiyat, çok eğlence!",
+    "date": "27 Eylül 2023",
+    "slugDate": "25 Ağustos 2023 - 27 Eylül 2023",
+    "subTitle": "Her hafta yeni festival filmleri, festivale özel lezzetli orta boy mısır, ödüllü oyunlar ve bitmeyen eğlence seni Paribu Cineverse lokasyonlarında bekliyor!",
+    "slugTitleAltName" : "Filmler;",
+    "slugTitleAlt": "Her hafta iki film vizyonda olacak şekilde ve sabit fiyat 50 TL olarak doyamadığınız ve yeniden izlemek istediğiniz filmler #hepsinema film festivalinde!",
+    "campanyNameDate" : "#hepsinema festival filmleri 1 Eylül haftası filmleri ile devam ediyor!",
+    "campanyName" :"1 Eylül Haftası Filmleri;",
+    "slugDesc": {
+      "desc1": "Ant-Man and Wasp: Quantumania",
+      "desc2": "Black Panther: Wakanda Forever"
+    },
+    "slugAvantageName" :"Avantajlar;",
+    "slugAvantageDesc" : "Festival filmlerine gişelerimizden bilet alan misafirlerimiz lezzetli orta boy mısır'ını sadece 30 TL'ye #hepsinema film festivaline özel alıyor!",
+    "slugAwardName" :"Ödüllü Oyunlar;",
+    "slugAwardDesc" : "Fuaye alanlarımızda eğlenceli bir çok oyun ve aktiviteye katıl, anında ödülleri kap!",
+    "slugExtraName" : "Kampanya koşulları:;",
+    "slugExtra" : {
+      "desc1": "1 Temmuz 2022 - 30 Haziran 2023 veya 1 Ocak 2023 - 31 Aralık 2023 tarihleri arasında 9 ve üzeri kere sinemaya gelmiş olan CGV Cinema Club üyelerimiz VIP üye statüsüne geçmeye hak kazanacaklar.",
+      "desc2": "CGV Cinema Club üyeliği ile Paribu Cineverse gişelerinden, web sitesi veya mobil uygulaması üzerinden ve kiosklarından alınan tüm biletlerde geçerlidir.",
+      "desc3": "Sinemaya gelişlerde satın alınan biletlerin adedi VIP üyelik için gerekli olan 9 ve üzeri kere gelme koşulunu etkilememektedir.",
+      "desc4": "İşlem adedi 9’a tamamlandıktan itibaren yılın son gününe kadar VIP üyeliği geçerlidir.",
+      "desc5": "VIP üye miyim ? VIP üye olabilmek için kaç kez daha sinemaya gelmeniz gerektiğini Paribu Cineverse web sitesi veya mobil uygulaması üzerinden CGV Cinema Club üyeliğinizin profilim sayfasından takip edebilirsiniz.",
+      "desc6": "VIP üye olmak için gerekli olan 9 ve üzeri kere sinemaya gelme koşulunu tüm lokasyonlarda ve tüm filmlerde tamamlayabilirsiniz.",
+      "desc7" : "CGV Mars Cinema Group kampanyada değişiklik yapma ve iptal etme hakkını saklı tutar."
+    }
+  },
+  {
+    "id": 7,
+    "img": "https://www.paribucineverse.com/Files/Carousel/MOB_L_UYGULAMA__20__ND_R_M_540x200.jpg",
+    "title": "Menülerde-20-İndirim-Seni-Bekliyor!",
+    "name" : "Menülerde %20 İndirim Seni Bekliyor!",
+    "desc": "Menülerde %20 İndirim Seni Bekliyor!",
+    "date": "22 Eylül 2023",
+    "slugDate": "26 Eylül 2020 - 31 Ocak 2024",
+    "slugDesc": {
+      "desc1": "Paribu Cineverse web sitesi, mobil uygulaması ve kiosklarından bilet alan misafirlerimiz menülerini %20 indirimli alıyor. ",
+      "desc2": "İnternetten aldığınız bileti büfede görevli personele göstermeniz yeterli.",
+      "desc3": "Geçerli olduğu popcorn menüler: Kova menü, büyük menü, büyük tekli menü ve orta menü. ",
+      "desc4": "CGV Mars Cinema Group kampanyada değişiklik yapma hakkını saklı tutar."
+    }
+  },
+  {
+    "id": 8,
+    "img": "https://www.paribucineverse.com/Files/Campaigns/paribucineverse_Refill_540x200.jpg",
+    "title": "Siz-Bitti-Demeden-Mısır-Bitmez!",
+    "name" : "Siz Bitti Demeden Mısır Bitmez!",
+    "desc": "Hesabını Bilen Sinemasever Film Arasında Mısırını Uygun Fiyata Doldurur!",
+    "date": "31 Aralık 2023",
+    "slugDate": "04 Kasım 2022 - 31 Aralık 2023",
+    "subTitle": "Hesabını Bilen Sinemasever Film Arasında Mısırını Uygun Fiyata Doldurur!",
+    "slugDesc": {
+      "desc1": "Satın alınan tüm patlamış mısırlarda, aynı ambalajla tekrar patlamış mısır doldurulabilir.",
+      "desc2": "Tekrar dolum, alım yapıldığı gün geçerlidir.",
+      "desc3": "Tekrar dolum fiyatı lokasyona göre değişkenlik göstermektedir.",
+      "desc4": "CGV Mars Cinema Group kampanyada değişiklik yapma hakkını saklı tutar. "
+    }
+  },
+
+  {
+    "id": 9,
+    "img": "https://www.paribucineverse.com/Files/Carousel/540X200PX_iletisim_izni_ver.jpg",
+    "title": "İletişim-İznini-Ver-CGV-Cinema-Club-Ayrıcalıklarını-Keşfet!",
+    "name" : "İletişim İznini Ver, CGV Cinema Club Ayrıcalıklarını Keşfet!",
+    "desc": "İletişim İznini Ver, CGV Cinema Club Ayrıcalıklarını Keşfet!",
+    "date": "31 Ocak 2025",
+    "slugDate": "28 Şubat 2022 - 31 Ocak 2025",
+    "subTitle": "Paribu Cineverse’te yepyeni ayrıcalıkları ve sana özel indirimleri keşfetmek için hemen üyelik bilgilerini güncelleyerek iletişim iznini ver. Fırsatlardan ve kampanyalardan haberdar ol!"
+  }
+]

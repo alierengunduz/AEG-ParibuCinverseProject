@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "img": "https://www.paribucineverse.com/Files/Campaigns/okula-donus/okula-donus-814x414px.jpg",
+      "title": "Okula-Donus-Doneminde-Dersimiz-Sinema-Kampanyasi",
+      "name" : "Okula Dönüş Döneminde Dersimiz Sinema Kampanyası",
+      "desc": "Paribu Cineverse’te Öğrencilere Salı ve Perşembe Günleri 30%’a varan indirimler!",
+      "date": "28 Eylül 2023"
+     
+    },
+  
+    {
+      "id": 2,
+      "img": "https://www.paribucineverse.com/Files/Campaigns/Kampanya_Gorsellerinin_Yenilenmesi_540x200-06.jpg",
+      "title": "Her-Pazartesi-ve-Çarşamba-Paribu-Cineverse'te-Halk-Günü",
+      "name"  : "Her Pazartesi ve Çarşamba Paribu Cineverse'te Halk Günü",
+      "desc": "Her Pazartesi ve Çarşamba Sinema Biletlerinde İndirim Seni Bekliyor!",
+      "date": "31 Aralık 2023"
+     
+    },
+    {
+      "id": 3,
+      "img": "https://www.paribucineverse.com/Files/V_Pwebslider540x200.jpg",
+      "title": "Paribu-Cineverse’te-AcaVIP-Güzel-Dönem-Başladı!",
+      "name" : "Paribu Cineverse’te AcaVIP Güzel Dönem Başladı!",
+      "desc": "Paribu Cineverse’te AcaVIP Güzel Dönem Başladı!",
+      "date": "31 Aralık 2023"
+    },
+    {
+      "id": 4,
+      "img": "https://www.paribucineverse.com/Files/2.jpg",
+      "title": "hepsinema-Film-Festival'i-Boyunca-Tüm-Paribu-Kullanıcılarına-Orta-Boy-Mısır-ve-Coca-Cola-Hediye!",
+      "name" :  "hepsinema Film Festival'i Boyunca tüm paribu kullancılarına orta boy mısır ve coca cola hediye!" ,
+      "desc": "Paribu'dan #hepsinema Film Festival'inde Orta Boy Mısır Menüsü Hediye!",
+      "date": "22 Eylül 2023"
+    },
+    {
+      "id": 5,
+      "img": "https://www.paribucineverse.com/Files/Paribu_Cineverse_1_Temmuz_Vip_Lansman_Video-KV_Calismasi_CGV-2023-52_540x200px.jpg",
+      "title": "CGV-Cinema-Club-Üyelerine-hepsinema-Festival-Filmleri-Kampanyası!",
+      "name" : "CGV Cinema Club Üyelerine #hepsinema Festival Filmleri Kampanyası!",
+      "desc": "CGV Cinema Club Üyelerine #hepsinema Festival Filmleri Kampanyası!",
+      "date": "30 Eylül 2023"
+    },
+    {
+      "id": 6,
+      "img": "https://www.paribucineverse.com/Files/1sep2.png",
+      "title": "Paribu-Cineverse'te-hepsinema-Film-Festival'i-Başladı!",
+      "name" : "Paribu Cineverse'te #hepsinema Film Festival'i Başladı!",
+      "desc": "Her hafta yeni filmler, tek fiyat, çok eğlence!",
+      "date": "27 Eylül 2023"
+    },
+    {
+      "id": 7,
+      "img": "https://www.paribucineverse.com/Files/Carousel/MOB_L_UYGULAMA__20__ND_R_M_540x200.jpg",
+      "title": "Menülerde-20-İndirim-Seni-Bekliyor!",
+      "name" : "Menülerde %20 İndirim Seni Bekliyor!",
+      "desc": "Menülerde %20 İndirim Seni Bekliyor!",
+      "date": "22 Eylül 2023"
+    },
+    {
+      "id": 8,
+      "img": "https://www.paribucineverse.com/Files/Campaigns/paribucineverse_Refill_540x200.jpg",
+      "title": "Siz-Bitti-Demeden-Mısır-Bitmez!",
+      "name" : "Siz Bitti Demeden Mısır Bitmez!",
+      "desc": "Hesabını Bilen Sinemasever Film Arasında Mısırını Uygun Fiyata Doldurur!",
+      "date": "31 Aralık 2023"
+    },
+  
+    {
+      "id": 9,
+      "img": "https://www.paribucineverse.com/Files/Carousel/540X200PX_iletisim_izni_ver.jpg",
+      "title": "İletişim-İznini-Ver-CGV-Cinema-Club-Ayrıcalıklarını-Keşfet!",
+      "name" : "İletişim İznini Ver, CGV Cinema Club Ayrıcalıklarını Keşfet!",
+      "desc": "İletişim İznini Ver, CGV Cinema Club Ayrıcalıklarını Keşfet!",
+      "date": "31 Ocak 2025"
+    }
+  ]
+  

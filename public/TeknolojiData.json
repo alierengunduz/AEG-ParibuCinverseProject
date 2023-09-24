@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "img":"https://www.paribucineverse.com/Files/TeknolojilerV2/List/_MAX.jpg",
+        "title" : "Bugüne Dek Yaratılmış “Gerçeğe En Yakın” Sinema Teknolojisi!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    },
+    {
+        "id": 2,
+        "img":"https://www.paribucineverse.com/Files/TeknolojilerV2/List/1920x420px_goldclass_new.jpg",
+        "title" : "Ev Rahatlığında Sinema Keyfi!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    },
+    {
+        "id": 3,
+        "img":"https://www.paribucineverse.com/Files/TeknolojilerV2/List/4DX.jpg",
+        "title" : "Çığır Açan Film Teknolojisi!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    },
+    {
+        "id": 4,
+        "img":"https://www.paribucineverse.com/Files/TeknolojilerV2/List/ScreenX.jpg",
+        "title" : "270 Dereceli Perdesiyle İlk Çok Perdeli Sinema Teknolojisi!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    },
+    {
+        "id": 5,
+        "img":"https://www.paribucineverse.com/Files/TeknolojilerV2/List/starium_yenigorsel.jpg",
+        "title" : "Daha Gerçekçi ve Canlı Görüntü!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    },
+    {
+        "id": 6,
+        "img":"https://www.paribucineverse.com/Files/TeknolojilerV2/List/1920x420px_tempur.jpg",
+        "title" : "Konforlu Sinema Deneyimi!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    },
+    {
+        "id": 7,
+        "img":"https://www.paribucineverse.com/Files/TeknolojilerV2/List/DBOX.jpg",
+        "title" : "Filme Göre Hareket Eden Koltuklar!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    },
+    {
+        "id": 8,
+        "img":"https://www.paribucineverse.com/Files/TeknolojilerV2/List/1920x420px_skybox.jpg",
+        "title" : "Locada Sinema Deneyimi!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    },
+    {
+        "id": 9,
+        "img":"https://www.paribucineverse.com/files/TeknolojilerV2/List/1920x420px_skyAuditorium.jpg",
+        "title" : "Özel Tasarımlı Deri Koltuklar Sinema Keyfi!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    },
+    {
+        "id": 10,
+        "img":"https://www.paribucineverse.com/Files/TeknolojilerV2/List/1920x420px_premium.jpg",
+        "title" : "Deri Koltuklarda Konforlu Sinema Deneyimi!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    },
+    {
+        "id": 11,
+        "img":"https://www.paribucineverse.com/Files/TeknolojilerV2/List/MPX.jpg",
+        "title" : "Son Teknoloji Geniş Ekranlar!",
+        "action" : "incele",
+        "naviIcon" : "https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/location.svg",
+        "naviTitle" : "Bu salon hangi sinemalarda var?",
+        "filmIcon" : " https://www.paribucineverse.com/assets/img/icons/page-exclusive-halls/movie.svg",
+        "filmTitle" : "Bu salonda hangi filmler var?"
+    }
+
+]
