@@ -336,7 +336,7 @@ const FormCompo = () => {
 
       {/* --------------Total Date-------Start--------- */}
 
-      <div className="flex items-center justify-between gap-x-10">
+      <div className="flex sm:flex-row flex-col items-center justify-between gap-x-10">
         {/* --------------day select---------------- */}
         <div className="my-5 w-full">
           <Box className="bg-[#374151] rounded-xl" sx={{ minWidth: 120 }}>

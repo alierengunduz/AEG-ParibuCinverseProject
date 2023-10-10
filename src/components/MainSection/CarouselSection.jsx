@@ -13,7 +13,7 @@ function SampleNextArrow({ onClick }) {
   return (
     <div>
       <FaRegArrowAltCircleRight
-        className="sm:text-5xl text-4xl cursor-pointer font-bold text-white absolute sm:top-[78%] top-[80%] sm:right-[11%] right-[3%] transform -translate-y-1/2 z-40"
+        className="sm:text-5xl text-2xl  cursor-pointer font-bold text-white absolute sm:top-[78%] top-[80%] sm:right-[11%] right-[3%] transform -translate-y-1/2 z-40"
         onClick={onClick}
       />
     </div>
@@ -24,7 +24,7 @@ function SamplePrevArrow({ onClick }) {
   return (
     <div>
       <FaRegArrowAltCircleLeft
-        className="sm:text-5xl text-4xl cursor-pointer font-bold text-white absolute sm:top-[78%] top-[80%] right-[16%] transform -translate-y-1/2 z-40"
+        className="sm:text-5xl text-2xl cursor-pointer  font-bold text-white absolute sm:top-[78%] top-[80%] right-[16%] transform -translate-y-1/2 z-40"
         onClick={onClick}
       />
     </div>
@@ -98,24 +98,24 @@ const CarouselPage = () => {
   };
 
   return (
-    <div className="w-full h-screen relative">
+    <div className="w-full sm:h-screen h-[60%] relative bg-[#121212] text-white">
       <Slider {...settings}>
         {carouselData.map((item, index) => (
           <div key={item.id} className="w-full h-full flex flex-col  relative">
             <img
               src={item.image}
               alt=""
-              className="w-full h-screen relative brightness-90"
+              className="w-full sm:h-screen h-full relative brightness-90"
             />
             <div className="absolute top-32  md:ml-10 ml-0 h-[550px] w-[630px]  flex flex-col  justify-between p-3">
-              <h1 className="text-white xl:text-5xl lg:text-3xl md:text-2xl text-lg sm:w-full w-[300px] text-center tracking-wider font-bold leading-snug">
+              <h1 className="text-white opacity-0 sm:opacity-100 xl:text-5xl lg:text-3xl md:text-2xl text-lg sm:w-full w-[300px] text-center tracking-wider font-bold leading-snug">
                 {item.name}
               </h1>
-              <p className="text-gray-200 lg:text-xl md:text-base sm:text-sm  md:w-full w-[350px]">
+              <p className="text-gray-200 opacity-0 sm:opacity-100 lg:text-xl md:text-base sm:text-sm  md:w-full w-[350px]">
                 {item.subtitle}
               </p>
               {/* -----total-------- */}
-              <div className="flex items-center mr-auto justify-around gap-x-10 p-1">
+              <div className="flex items-center mr-auto justify-around gap-x-10 p-1 opacity-0 sm:opacity-100">
                 {/* ------section--1------- */}
                 <div className="flex items-center gap-x-4">
                   {item.details &&
@@ -150,7 +150,7 @@ const CarouselPage = () => {
                 </div>
               </div>
               <div>
-                <div className="flex items-center gap-x-4">
+                <div className="flex items-center gap-x-4 opacity-0 sm:opacity-100">
                   {item.ex &&
                     Object.values(item.ex).map((ex, index) => (
                       <div
@@ -162,19 +162,19 @@ const CarouselPage = () => {
                       </div>
                     ))}
                 </div>
-                <div
+                <div 
                   onClick={() => showModal(item.videoUrl)}
-                  className="absolute top-[50%] cursor-pointer left-[70%] text-gray-300 bg-gradient-to-br from-gray-500   py-3 px-10 hover:text-gray-800 transition-all duration-100 rounded-3xl hover:bg-gray-200 group"
+                  className="absolute top-[50%] cursor-pointer left-[70%] opacity-0 sm:opacity-100 text-gray-300 bg-gradient-to-br from-gray-500   py-3 px-10 hover:text-gray-800 transition-all duration-100 rounded-3xl hover:bg-gray-200 group"
                 >
                   <span className=" transition-all duration-100 ">
                     <BsFillPlayCircleFill size={60} />
                   </span>
                 </div>
               </div>
-              <p className="text-gray-200 sm:text-xl text-base font-bold">
+              <p className="text-gray-200 sm:text-xl text-base font-bold opacity-0 sm:opacity-100">
                 {item.campaignDate}
               </p>
-              <div className="flex items-center gap-x-5">
+              <div className="flex items-center gap-x-5 opacity-0 sm:opacity-100">
                 <Link
                   to={`/carousel/${item.title.replace(/ /g, "-")}`}
                   className="border-2 border-double text-white w-[12rem] rounded-xl font-bold tracking-wider py-2 flex items-center justify-center"
@@ -195,16 +195,33 @@ const CarouselPage = () => {
           </div>
         ))}
       </Slider>
-      <div className="h-16 bg-gradient-to-t from-black absolute bottom-0 left-0 w-full z-10 animate-pulse">
+      <div className="h-16 bg-gradient-to-t from-black absolute bottom-0 left-0 w-full z-10 animate-pulse sm:opacity-100 opacity-0">
         <div className="absolute bottom-0 left-0 text-white ml-4 mb-4">
           {currentSlide + 1} / {carouselData.length}
         </div>
       </div>
-      <div className="w-full h-16 absolute bottom-0 left-0 flex items-center justify-center">
+      <div className="w-full h-16 absolute bottom-0 left-0 flex items-center justify-center opacity-0 sm:opacity-100">
         {carouselData.map((item, index) => (
           <div
             key={index}
             className={`w-8 h-8 mx-2 rounded-full cursor-pointer ${
+              index === previewSlide ? "bg-blue-500" : "bg-gray-400"
+            }`}
+            onClick={() => setCurrentSlide(index)}
+          ></div>
+        ))}
+      </div>
+      <div className="px-5 leading-relaxed text-3xl tracking-wider text-center opacity-100 sm:opacity-0">
+        {
+          carouselData[currentSlide] &&
+          carouselData[currentSlide].name
+        }
+      </div>
+      <div className="opacity-100 sm:opacity-0 flex items-center justify-center mt-3">
+      {carouselData.map((item, index) => (
+          <div
+            key={index}
+            className={`w-3 h-3 mx-2 rounded-full  cursor-pointer ${
               index === previewSlide ? "bg-blue-500" : "bg-gray-400"
             }`}
             onClick={() => setCurrentSlide(index)}

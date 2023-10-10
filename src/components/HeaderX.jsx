@@ -1,9 +1,22 @@
-import React,{useState, useEffect} from "react";
-import { BiDotsHorizontal, BiSearchAlt } from "react-icons/bi";
+import React,{useState,useEffect} from 'react'
+import {BiMenuAltLeft, BiDotsHorizontal} from 'react-icons/bi'
 import { Link } from "react-router-dom";
 import { Dropdown, Space } from "antd";
-const Header = () => {
+import {GiHamburgerMenu}  from 'react-icons/gi'
+import {AiOutlineSearch} from 'react-icons/ai'
+import { Button, Drawer } from 'antd';
+import HeaderDrawer from './HeaderDrawer'
+const HeaderX = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const [open, setOpen] = useState(false);
+  const showDrawer = () => {
+    setOpen(true);
+  };
+  const onClose = () => {
+    setOpen(false);
+  };
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,9 +34,6 @@ const Header = () => {
     };
   }, []);
 
-  const headerClassName = `w-full flex items-center justify-between font-bold transition-all duration-300  py-5 px-28 text-white fixed top-0 z-50 ${
-    isScrolled ? "bg-[#1E1E1E]" : "bg-transparent"
-  }`;
 
   const items = [
     {
@@ -119,18 +129,30 @@ const Header = () => {
   ];
 
   return (
-    <header className={headerClassName}>
-      <div className="flex items-center sm:gap-x-6 gap-x-2 ">
-        <Link to="/">
+    <header className= {`w-full flex items-center justify-between font-bold transition-all duration-300 py-1 sm:px-10 px-3 text-white fixed z-50 ${
+      isScrolled ? "bg-[#1E1E1E]" : "bg-transparent"
+  }`}>
+   <div className='w-full sm:flex hidden items-center justify-between'>
+
+{/* -----------section ---------1------------- */}
+      <div className='flex items-center justify-center'>
+    <Link to="/">
           <img
             src="https://www.paribucineverse.com/assets/img/logo/logo.svg?v=240820231250"
             alt="logo" className="object-cover"
           />
         </Link>
+        <div className='opacity-100 sm:opacity-0 sm:text-3xl text-xl'>
+          <GiHamburgerMenu  />
+        </div>
+      </div>
+       {/* -----------section ---------2------------- */}
+       <div className='flex items-center justify-center px-1 gap-x-5 py-2 cursor-pointer'>
+     
         <Link to="/vizyon">Filmler</Link>
         <Link to="/sinemalar">Sinemalar</Link>
         <Link to="/kampanyalar">Kampanyalar</Link>
-       <Link to="/moviepass">
+        <Link to="/moviepass">
        <img
           src="https://www.paribucineverse.com/assets/img/icons/cgv_movie_pass/cgv_movie_pass_1x.svg"
           alt="campany"
@@ -147,27 +169,41 @@ const Header = () => {
             </Space>
           </a>
         </Dropdown>
-      </div>
-      <div className="flex items-center gap-x-5">
-        <button>
-          {" "}
-          <BiSearchAlt size={25} />{" "}
+       </div>
+        {/* -----------section ---------3------------- */}
+       <div className='flex items-center gap-x-5 cursor-pointer'>
+        <img src="https://www.paribucineverse.com/assets/img/icons/header/search.svg" alt="" />
+        <button className='flex items-center gap-x-1 bg-white text-black py-2 px-4 rounded-2xl'>
+          <img src="https://www.paribucineverse.com/assets/img/icons/cgv_cinema_club/cgv_cinema_club_2x.svg" alt="" />
+          <span className='text-xs'>Giriş Yap <br /> veya Üye Ol</span>
         </button>
-        <a
-          className="flex  items-center gap-x-2 text-black bg-gray-100 px-3 rounded-2xl py-1"
-          href=""
-        >
-          <img
-            src="https://www.paribucineverse.com/assets/img/icons/cgv_cinema_club/cgv_cinema_club_2x.svg"
-            alt=""
-          />
-          <span className="text-sm font-light">
-            Giriş Yap <br /> veya Üye Ol{" "}
-          </span>
-        </a>
+       </div>
+    </div>
+    <div className='flex sm:hidden items-center justify-between w-full'>
+      <div className='text-3xl' onClick={showDrawer}>
+        <BiMenuAltLeft/>
       </div>
-    </header>
-  );
-};
+      <div className='w-[40%]'>
+      <Link to="/">
+          <img
+            src="https://www.paribucineverse.com/assets/img/logo/logo.svg?v=240820231250"
+            alt="logo" className=" object-cover"
+          />
+        </Link>
+      </div>
+      <div>
+        <AiOutlineSearch size={25}/>
+      </div>
+    </div>
+    <Drawer
+    closeIcon={null}
+     headerStyle={{backgroundColor:'#1E1E1E'}}
+     bodyStyle={{backgroundColor:'#1E1E1E'}}
+     className='mt-10 text-white'  placement="left" onClose={onClose} open={open}>
+      <HeaderDrawer/>
+      </Drawer>
+  </header>
+  )
+}
 
-export default Header;
+export default HeaderX

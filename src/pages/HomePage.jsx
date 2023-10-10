@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
 import CarouselPage from '../components/MainSection/CarouselSection';
 import Vizyondakiler from '../components/Vizyondakiler';
 import YakindaVizyon from '../components/YakindaVizyon';
@@ -13,14 +12,13 @@ const HomePage = () => {
 
   return (
     <div className='w-full min-h-screen'>
-      <Header />
-      <CarouselPage /> 
-       <Vizyondakiler /> 
-       <YakindaVizyon />  
-        <Campany />  
-        <MoviePass />  
+        <CarouselPage /> 
+        <Vizyondakiler /> 
+        <YakindaVizyon /> 
+        <Campany />
+        <MoviePass />
         <CinemaClub />
-       <Footer /> 
+        <Footer />
     </div>
   );
 };

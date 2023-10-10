@@ -66,13 +66,13 @@ const Vizyon = () => {
 
   return (
     <div className="w-full min-h-screen bg-[#121212] py-1">
-      <div className="w-full h-[400px] relative">
-        <img src="/images/cinema.png" alt="" />
-        <span className="absolute top-[50%] left-[47%] text-white text-4xl font-bold tracking-wider">
+      <div className="w-full sm:h-[400px] h-[200px] relative">
+        <img className="w-full h-full object-cover" src="/images/cinema.png" alt="" />
+        <span className="absolute top-[50%] sm:left-[47%] left-[40%] text-white sm:text-4xl text-2xl font-bold tracking-wider">
           Vizyonda
         </span>
       </div>
-      <div className="text-white mt-28 py-2 ml-10 flex items-center gap-x-1">
+      <div className="text-white sm:mt-28 mt-10 py-2 ml-10 flex items-center gap-x-1">
         <img
           src="https://www.paribucineverse.com/assets/img/icons/breadcrumb/home.svg"
           alt=""
@@ -83,7 +83,7 @@ const Vizyon = () => {
         />
         <span className="text-gray-400 font-bold text-lg">Vizyonda</span>
       </div>
-      <div className="mt-10 flex items-center justify-between px-10">
+      <div className="mt-10 flex sm:flex-row flex-col gap-y-10 items-center justify-between px-10">
         <div className="text-white flex items-center text-3xl gap-x-5">
           <NavLink to="/vizyon">Vizyonda</NavLink>
           <NavLink to="/yakinda">Yakinda</NavLink>
@@ -105,7 +105,7 @@ const Vizyon = () => {
           </Box>
         </div>
       </div>
-      <div className="text-white mt-24 px-10">
+      <div className="text-white sm:mt-24 mt-5 sm:px-10 px-3">
          <VizyonPageComp  movies={movies} setMovies={setMovies}/>
       </div>
      <div>

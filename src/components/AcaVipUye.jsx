@@ -11,7 +11,7 @@ function SampleNextArrow({ onClick }) {
     return (
       <div>
         <FaRegArrowAltCircleRight
-          className="text-5xl cursor-pointer font-bold text-white absolute top-[30%] right-0 transform -translate-y-1/2 z-40"
+          className="sm:text-5xl text-4xl cursor-pointer font-bold sm:text-white text-gray-400 absolute top-[30%] sm:right-0 -right-7 transform -translate-y-1/2 z-40"
           onClick={onClick}
         />
       </div>
@@ -22,7 +22,7 @@ function SampleNextArrow({ onClick }) {
     return (
       <div>
         <FaRegArrowAltCircleLeft
-          className="text-5xl cursor-pointer font-bold text-white absolute top-[30%] left-0 transform -translate-y-1/2 z-40"
+          className="sm:text-5xl text-4xl cursor-pointer font-bold sm:text-white text-gray-400 absolute top-[30%] sm:left-0 -left-7 transform -translate-y-1/2 z-40"
           onClick={onClick}
         />
       </div>
@@ -61,6 +61,23 @@ const AcaVipUye = () => {
       setCurrentSlide(next);
       setPreviewSlide(next);
     },
+    responsive: [
+      {
+        breakpoint: 768, // Mobil ekran boyutu için
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024, // Tablet ekran boyutu için
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      // Diğer ekran boyutlarına göre istediğiniz ayarları ekleyebilirsiniz.
+    ],
   };
 
 

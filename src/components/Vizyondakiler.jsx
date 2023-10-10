@@ -13,7 +13,7 @@ function SampleNextArrow({ onClick }) {
   return (
     <div>
       <FaRegArrowAltCircleRight
-        className="text-5xl cursor-pointer font-bold text-white absolute top-[40%] -right-10 transform -translate-y-1/2 z-40"
+        className="sm:text-5xl text-4xl cursor-pointer font-bold sm:text-white text-gray-500 absolute sm:top-[40%] top-[107%] sm:-right-10 right-0 transform -translate-y-1/2 z-40"
         onClick={onClick}
       />
     </div>
@@ -24,7 +24,7 @@ function SamplePrevArrow({ onClick }) {
   return (
     <div>
       <FaRegArrowAltCircleLeft
-        className="text-5xl cursor-pointer font-bold text-white absolute top-[40%] -left-10 transform -translate-y-1/2 z-40"
+        className="sm:text-5xl text-4xl cursor-pointer font-bold sm:text-white text-gray-500 absolute sm:top-[40%] top-[107%] sm:-left-10 left-0 transform -translate-y-1/2 z-40"
         onClick={onClick}
       />
     </div>
@@ -78,7 +78,28 @@ const Vizyondakiler = () => {
       setCurrentSlide(next);
       setPreviewSlide(next);
     },
+    responsive: [
+      {
+        breakpoint: 768, // Mobil ekran boyutu için
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024, // Tablet ekran boyutu için
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      // Diğer ekran boyutlarına göre istediğiniz ayarları ekleyebilirsiniz.
+    ],
   };
+
+
+
+
 
   const showModal = (videoUrl) => {
     setVideoUrl(videoUrl);
@@ -95,11 +116,11 @@ const Vizyondakiler = () => {
   };
 
   return (
-    <div className="w-full h-screen bg-[#262626] text-white flex items-start justify-center p-24">
+    <div className="w-full h-screen sm:bg-[#262626] bg-[#121212] text-white flex items-start justify-center sm:p-24 p-2 sm:py-0 py-10 ">
       <div className="w-[95%] h-[40rem] p-1">
         <div className="flex items-center justify-between">
-          <h1 className="text-4xl font-bold">Vizyondakiler</h1>
-          <Link className="underline text-2xl font-bold" to="/vizyon">
+          <h1 className="sm:text-4xl text-lg font-bold">Vizyondakiler</h1>
+          <Link className="underline sm:text-2xl text-base font-bold" to="/vizyon">
             TÜMÜ
           </Link>
         </div>

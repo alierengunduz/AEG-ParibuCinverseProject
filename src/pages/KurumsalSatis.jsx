@@ -10,12 +10,13 @@ const KurumsalSatis = () => {
 
   return (
     <div className="w-full min-h-screen bg-[#323232] py-1">
-      <div className="w-full relative">
+      <div className="w-full sm:h-[400px] h-[200px] relative">
         <img
+        className="w-full h-full object-cover"
           src="https://www.paribucineverse.com/assets/img/page_special_event/banner.svg"
           alt=""
         />
-        <span className="absolute top-[40%] left-[35%] text-white text-4xl font-bold tracking-wider">
+        <span className="absolute top-[40%] left-[35%] text-white sm:text-4xl text-2xl font-bold tracking-wider">
           Özel Etkinlik Talepleri
         </span>
       </div>
@@ -34,20 +35,20 @@ const KurumsalSatis = () => {
           Sinema Salonları
         </span>
       </div>
-      <div className="my-10 mx-32 text-white flex flex-col gap-y-10">
+      <div className="my-10 sm:mx-32 mx-2 text-white flex flex-col gap-y-10">
 
         {/* --------section-----1--------- */}
-        <div className="w-[1140px] min-h-[357px] bg-[#161616] rounded-2xl  flex flex-col items-center justify-between gap-x-10 p-7">
-          <div className="flex items-center min-h-[310px] justify-between w-full gap-x-10">
-            <div className="w-[20%] h-full flex items-center justify-center rounded-3xl">
+        <div className=" sm:w-[1140px] w-full min-h-[357px] bg-[#161616] rounded-2xl  flex flex-col items-center justify-between gap-x-10 sm:p-7 p-2">
+          <div className="flex sm:flex-row flex-col sm:gap-y-0 gap-y-4 items-center min-h-[310px] justify-between w-full gap-x-10">
+            <div className="sm:w-[20%] w-[60%] h-full flex items-center justify-center rounded-3xl">
               <img
                 src="https://www.paribucineverse.com/assets/img/page_special_event/icons/microphone.svg"
                 alt=""
-                className="w-20 h-20 bg-white p-2 rounded-3xl"
+                className="sm:w-20 sm:h-20 w-14 h-14 bg-white p-2 rounded-3xl"
               />
             </div>
-            <div className="flex flex-col gap-y-4 w-[50%] h-full items-start justify-center">
-              <h1 className="text-4xl font-bold tracking-wider">
+            <div className="flex flex-col gap-y-4 sm:w-[50%] w-[95%] h-full items-start justify-center">
+              <h1 className="sm:text-4xl text-2xl font-bold tracking-wider">
                 Organizasyon İçin
               </h1>
               {show ? null : (
@@ -72,7 +73,7 @@ const KurumsalSatis = () => {
             ) : (
               <div
                 onClick={handleShow}
-                className="w-[30%]  flex items-center justify-center bg-[#95A724] hover:bg-transparent hover:border hover:border-[#95A724] transition-all duration-100 rounded-3xl"
+                className="sm:w-[30%] w-[95%]  flex items-center justify-center bg-[#95A724] hover:bg-transparent hover:border hover:border-[#95A724] transition-all duration-100 rounded-3xl"
               >
                 <button className="text-white  py-3 px-3 text-sm">
                   Hemen Rezervasyon Yap
@@ -112,18 +113,18 @@ const KurumsalSatis = () => {
         </div>
             
             {/* --------section-----2--------- */}
-            <div className="w-[1140px] min-h-[357px] bg-[#161616] rounded-2xl  flex flex-col items-center justify-between gap-x-10 p-7">
-          <div className="flex items-center min-h-[310px] justify-between w-full gap-x-10">
-            <div className="w-[20%] h-full flex items-center justify-center rounded-3xl">
+            <div className=" sm:w-[1140px] w-full min-h-[357px] bg-[#161616] rounded-2xl  flex flex-col items-center justify-between gap-x-10 sm:p-7 p-2">
+          <div className="flex sm:flex-row flex-col sm:gap-y-0 gap-y-4 items-center min-h-[310px] justify-between w-full gap-x-10">
+            <div className="sm:w-[20%] w-[60%] h-full flex items-center justify-center rounded-3xl">
               <img
                 src="https://www.paribucineverse.com/assets/img/page_special_event/icons/crown.svg"
                 alt=""
-                className="w-20 h-20 bg-white p-2 rounded-3xl"
+                className="sm:w-20 sm:h-20 w-14 h-14 bg-white p-2 rounded-3xl"
               />
             </div>
-            <div className="flex flex-col gap-y-4 w-[50%] h-full items-start justify-center">
-              <h1 className="text-4xl font-bold tracking-wider">
-              Doğum Günleri VIP Kutlamalar
+            <div className="flex flex-col gap-y-4 sm:w-[50%] w-[95%] h-full items-start justify-center">
+              <h1 className="sm:text-4xl text-2xl font-bold tracking-wider">
+                Doğum Günleri VIP Kutlamalar
               </h1>
               {show ? null : (
                 <p>
@@ -145,7 +146,7 @@ const KurumsalSatis = () => {
             ) : (
               <div
                 onClick={handleShow}
-                className="w-[30%]  flex items-center justify-center bg-[#95A724] hover:bg-transparent hover:border hover:border-[#95A724] transition-all duration-100 rounded-3xl"
+                className="sm:w-[30%] w-[95%]  flex items-center justify-center bg-[#95A724] hover:bg-transparent hover:border hover:border-[#95A724] transition-all duration-100 rounded-3xl"
               >
                 <button className="text-white  py-3 px-3 text-sm">
                   Hemen Rezervasyon Yap
@@ -185,23 +186,22 @@ const KurumsalSatis = () => {
         </div>
 
             {/* --------section-----3--------- */}
-
-            <div className="w-[1140px] min-h-[357px] bg-[#161616] rounded-2xl  flex flex-col items-center justify-between gap-x-10 p-7">
-          <div className="flex items-center min-h-[310px] justify-between w-full gap-x-10">
-            <div className="w-[20%] h-full flex items-center justify-center rounded-3xl">
+            <div className=" sm:w-[1140px] w-full min-h-[357px] bg-[#161616] rounded-2xl  flex flex-col items-center justify-between gap-x-10 sm:p-7 p-2">
+          <div className="flex sm:flex-row flex-col sm:gap-y-0 gap-y-4 items-center min-h-[310px] justify-between w-full gap-x-10">
+            <div className="sm:w-[20%] w-[60%] h-full flex items-center justify-center rounded-3xl">
               <img
                 src="https://www.paribucineverse.com/assets/img/page_special_event/icons/people-default.svg"
                 alt=""
-                className="w-20 h-20 bg-white p-2 rounded-3xl"
+                className="sm:w-20 sm:h-20 w-14 h-14 bg-white p-2 rounded-3xl"
               />
             </div>
-            <div className="flex flex-col gap-y-4 w-[50%] h-full items-start justify-center">
-              <h1 className="text-4xl font-bold tracking-wider">
+            <div className="flex flex-col gap-y-4 sm:w-[50%] w-[95%] h-full items-start justify-center">
+              <h1 className="sm:text-4xl text-2xl font-bold tracking-wider">
               Filme Özel Grup Satış
               </h1>
               {show ? null : (
                 <p>
-                  Eğlenceyi Paribu Cineverse’te deneyimle. Vizyondaki en iyi filmleri okul ve iş arkadaşlarınla, tanıdıklarınla, ailenle, sevdiklerinle birlikte Paribu Cineverse’lerde izleyebilirsin.
+                 Eğlenceyi Paribu Cineverse’te deneyimle. Vizyondaki en iyi filmleri okul ve iş arkadaşlarınla, tanıdıklarınla, ailenle, sevdiklerinle birlikte Paribu Cineverse’lerde izleyebilirsin.
                 </p>
               )}
             </div>
@@ -219,7 +219,7 @@ const KurumsalSatis = () => {
             ) : (
               <div
                 onClick={handleShow}
-                className="w-[30%]  flex items-center justify-center bg-[#95A724] hover:bg-transparent hover:border hover:border-[#95A724] transition-all duration-100 rounded-3xl"
+                className="sm:w-[30%] w-[95%]  flex items-center justify-center bg-[#95A724] hover:bg-transparent hover:border hover:border-[#95A724] transition-all duration-100 rounded-3xl"
               >
                 <button className="text-white  py-3 px-3 text-sm">
                   Hemen Rezervasyon Yap

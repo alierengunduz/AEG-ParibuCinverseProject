@@ -5,17 +5,18 @@ import Footer from "../components/Footer";
 const CgvArthouse = () => {
   return (
     <div className="w-full min-h-screen bg-[#121212] text-white py-1 flex flex-col items-center justify-start">
-      <div className="w-full h-[400px] relative">
+      <div className="w-full sm:h-[400px] h-[200px] relative">
         <img
           src="https://www.paribucineverse.com/assets/img/page-cgv-art-house/banner.png"
           alt=""
-          className="brightness-90"
+          className="brightness-90 w-full h-full object-cover"
         />
-        <div className="absolute  -bottom-72 left-0 w-full h-[3rem] bg-black blur-lg"></div>
+        <div className="absolute  -bottom-72 left-0 w-full h-[3rem] sm:block hidden bg-black blur-lg"></div>
       </div>
-      <div className="text-white mt-80 w-[75%]">
-        <h1 className="font-bold text-3xl tracking-wider">CGV Arthouse</h1>
-        <p className="mt-5 leading-loose">
+
+      <div className="text-white sm:mt-80 mt-10  sm:w-[75%] w-[95%]">
+        <h1 className="font-bold sm:text-3xl text-2xl tracking-wider">CGV Arthouse</h1>
+        <p className="mt-5 leading-loose sm:text-base text-sm">
           CGV Arthouse, sinemayı mutluluk olarak gören insanların projesidir.
           CGV Arthouse salonları, CGV Mars Cinema Group’un heyecan ve mutluluk
           dolu, hiç anlatılmamış özel hikayeleri, seyirciyle buluşturduğu
@@ -35,7 +36,8 @@ const CgvArthouse = () => {
           salonlarımıza gelin ve bu muhteşem sanat deneyimini siz de yaşayın.
         </p>
       </div>
-      <div className="my-16 flex flex-col items-start w-[90%]">
+
+      {/* <div className="my-16 flex flex-col items-start w-[90%]">
         <h1 className="font-bold tracking-wider text-4xl">
           CGV Arthouse Filmleri
         </h1>
@@ -83,14 +85,14 @@ const CgvArthouse = () => {
             </span>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="my-16 flex flex-col items-start w-[90%]">
-      <h1 className="font-bold tracking-wider text-4xl">
+      <h1 className="font-bold tracking-wider sm:text-4xl text-2xl">
           CGV Arthouse Filmleri
         </h1>
-        <ul className="my-10 grid grid-cols-3 gap-x-7 gap-y-10">
+        <ul className="my-10 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-7 gap-y-10">
         <li
-      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  w-[419px] h-[149px]"
+      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  sm:w-[419px] w-full h-[149px]"
     >
       <span className="text-black font-bold text-base">Paribu Cineverse A Plus</span>
       <span className="text-black font-thin text-sm">Ataköy A Plus, Adnan Kahveci Bulvarı 6.Kısım, Ataköy - İstanbul</span>
@@ -111,7 +113,7 @@ const CgvArthouse = () => {
     </li>
 
     <li
-      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  w-[419px] h-[149px]"
+      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  sm:w-[419px] w-full h-[149px]"
     >
       <span className="text-black font-bold text-base">Paribu Cineverse Bursa Podyumpark</span>
       <span className="text-black font-thin text-sm">Cumhuriyet Mah.Nilüfer Hatun Cad.No:114</span>
@@ -132,7 +134,7 @@ const CgvArthouse = () => {
     </li>
 
     <li
-      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  w-[419px] h-[149px]"
+      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  sm:w-[419px] w-full h-[149px]"
     >
       <span className="text-black font-bold text-base">Paribu Cineverse Marmara Forum
 </span>
@@ -154,7 +156,7 @@ const CgvArthouse = () => {
     </li>
 
     <li
-      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  w-[419px] h-[149px]"
+      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  sm:w-[419px] w-full h-[149px]"
     >
       <span className="text-black font-bold text-base">Paribu Cineverse Panora</span>
       <span className="text-black font-thin text-sm">Panora AVM Turan Güneş Bulvarı No: 182/212 Çankaya</span>
@@ -181,7 +183,7 @@ const CgvArthouse = () => {
     </li>
 
     <li
-      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  w-[419px] h-[149px]"
+      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  sm:w-[419px] w-full h-[149px]"
     >
       <span className="text-black font-bold text-base">Paribu Cineverse Piazza Samsun</span>
       <span className="text-black font-thin text-sm">Çarşamba Cad. No: 52 Eski Otogar Mevkii Sanayi Sitesi Yanı / Samsun</span>

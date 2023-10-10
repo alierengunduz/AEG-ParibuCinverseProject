@@ -41,11 +41,11 @@ const VizyonPageComp = ({ movies, setMovies}) => {
 
   return (
     <div>
-      <ul className="grid grid-cols-5 gap-5 py-20">
+      <ul className="grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 sm:gap-5 gap-x-3 sm:gap-y-0 gap-y-10 py-20">
         {movies.map((movie, index) => (
           <li
             key={index}
-            className="w-[250px] relative cursor-pointer h-[480px] flex flex-col group gap-y-1 items-center justify-between shadow-md shadow-red-400 p-5"
+            className="sm:w-[250px] w-[170px] relative  cursor-pointer sm:h-[480px] h-[390px] flex flex-col group gap-y-1 items-center  justify-between shadow-md shadow-red-400 sm:p-5 p-0"
           >
             <div className="w-full h-[20rem] filter relative  ">
               <img

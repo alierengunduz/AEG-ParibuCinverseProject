@@ -41,10 +41,12 @@ const MovieSlug = () => {
       <img 
         src={movieData.img}
         alt=""
-        className="w-full h-[1000px] brightness-50 blur-md"
+        className="w-full sm:h-[1000px] h-[1500px] brightness-50 blur-md"
       />
-      <div className="absolute top-32 w-full px-20">
-        <div className="flex items-center justify-between">
+
+      <div className="absolute top-32 w-full sm:px-20 px-2">
+
+        <div className="flex sm:flex-row flex-col items-center justify-between">
           <div className="flex items-center gap-x-1 text-xs">
             <img
               src="https://www.paribucineverse.com/assets/img/icons/breadcrumb/home.svg"
@@ -62,9 +64,9 @@ const MovieSlug = () => {
               alt=""
               className="w-4 h-4"
             />
-            <span>Harry Potter ve Sırlar Odası</span>
+            <span>{movieData.name} </span>
           </div>
-          <div className="flex items-center gap-x-7">
+          <div className="sm:flex hidden items-center gap-x-7">
             <div className="flex items-center gap-x-1">
               <img
                 src="https://www.paribucineverse.com/assets/modules/page-film-detay/img/movie-comment.svg"
@@ -100,8 +102,9 @@ const MovieSlug = () => {
             </div>
           </div>
         </div>
+
         <div className="mt-16 flex items-start  justify-between">
-          <div className="flex items-start gap-x-7 w-full">
+          <div className="flex sm:flex-row flex-col items-start gap-x-7 w-full">
             <div className="flex flex-col gap-y-2">
               <div>
                 {" "}
@@ -153,20 +156,20 @@ const MovieSlug = () => {
                  <p>Oyuncular: {movieData.players}</p>
                  <p>Formatlar: {movieData.format} </p>
               </div>
-              <div className="flex items-center gap-x-5">
-                <button className="bg-[#98A726] py-3 px-10 rounded-3xl">Hemen Bilet Al</button>
+              <div className="flex sm:flex-row flex-col sm:gap-y-0 gap-y-4 items-center gap-x-5">
+                <button className="bg-[#98A726] py-3 sm:px-10 px-20 rounded-3xl">Hemen Bilet Al</button>
                 <div className="flex items-center gap-x-1 border-2 border-double border-white py-2 px-8 rounded-3xl">
-                <button>Fragmanı izle</button>
+                <button className="sm:px-10 px-[35px]">Fragmanı izle</button>
                 <img src="https://www.paribucineverse.com/assets/modules/page-film-detay/img/play-icon.svg" alt="" />
                 </div>
-                <button className="border-2 border-double border-white py-3 px-10 rounded-3xl">Yorumla</button>
+                <button className="border-2 border-double border-white py-3 sm:px-10 px-24 rounded-3xl">Yorumla</button>
               </div>
-              <span>Film Özeti</span>
-              <p>{movieData.summary}</p>
+              <span className="sm:flex hidden">Film Özeti</span>
+              <p className="sm:flex hidden">{movieData.summary}</p>
             </div>
           </div>
 
-          <div className="flex items-center gap-x-2 w-[5%]">
+          <div className="sm:flex hidden items-center gap-x-2 w-[5%]">
             <img
               src="https://www.paribucineverse.com/assets/modules/page-film-detay/img/star.svg"
               alt=""
@@ -175,6 +178,8 @@ const MovieSlug = () => {
           </div>
         </div>
       </div>
+
+
       <div className="my-10 flex items-center justify-center">
         <Form
          className="w-[1009px] h-[145px] relative"
@@ -195,7 +200,7 @@ const MovieSlug = () => {
       >
         <Input.TextArea className="bg-transparent placeholder:text-white py-14 pl-5 border-8 border-double text-white" placeholder="Film ile ilgili yorumunuzu yazın..."  maxLength={200} />
       </Form.Item>
-          <button className="bg-[#98a726] text-white py-3 px-14 rounded-2xl absolute right-4 bottom-3" type="submit">Gönder</button>
+          <button className="bg-[#98a726] text-white sm:py-3 py-1 sm:px-14 px-8 rounded-2xl absolute right-4 bottom-3" type="submit">Gönder</button>
         </Form>
       </div>
             <Vizyondakiler />

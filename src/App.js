@@ -18,12 +18,12 @@ import MovieSlug from './pages/[movieSlug]/MovieSlug';
 import NextMovieSlug from './pages/[nextMovieSlug]/NextMovieSlug';
 import CarouselSlug from './pages/[carouselSlug]/CarouselSlug';
 import TicketSlug from './pages/[ticketSlug]/TicketSlug';
-import Header from './components/Header';
+import HeaderX from './components/HeaderX';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <Header />
+      <HeaderX />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/vizyon" element={<Vizyon />} />

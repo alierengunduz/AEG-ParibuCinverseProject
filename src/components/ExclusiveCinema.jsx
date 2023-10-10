@@ -60,7 +60,7 @@ const ExclusiveCinema = () => {
   return (
     <div>
          <Dropdown
-            className="border py-2.5 px-7 rounded-lg w-[14rem] bg-gray-800"
+            className="border py-4 w-[15rem] p-2  rounded-lg bg-gray-800"
             overlay={
               <Space direction="vertical" className="bg-gray-700 w-full text-center overflow-auto max-h-[350px] font-bold tracking-wider">
                 {items.map((item, index) => (

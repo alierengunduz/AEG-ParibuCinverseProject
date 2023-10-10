@@ -194,10 +194,10 @@ const Footer = () => {
   ]
 
   return (
-    <div className='bg-[#121212] min-h-screen w-ful '>
-        <div className='bg-[#98A726] text-white py-6 pl-10 pr-96 flex items-center justify-between'>
-            <h1 className='font-bold text-3xl'>Bizi Takip Et</h1>
-            <ul className='flex items-center gap-x-20'>
+    <div className='bg-[#121212] min-h-screen w-full'>
+        <div className='bg-[#98A726] text-white py-6 pl-10 sm:pr-96 pr-0 flex sm:flex-row flex-col sm:gap-y-0 gap-y-2 items-center justify-between'>
+            <h1 className='font-bold sm:text-3xl text-xl'>Bizi Takip Et</h1>
+            <ul className='flex items-center sm:gap-x-20 gap-x-6'>
               <li>
                 <a href="">
                     <img src="https://www.paribucineverse.com/assets/img/footer/social_media/facebook.svg" alt="" />
@@ -225,7 +225,7 @@ const Footer = () => {
               </li>
             </ul>
         </div>
-           <footer className='text-white my-10 px-14 flex items-start justify-evenly'>
+           <footer className='text-white my-10 sm:px-14 px-4 grid grid-cols-2 md:grid-cols-5 sm:grid-cols-3'>
              <div>
                 <h1 className='text-2xl font-bold'>Vizyon</h1>
                 <ul>
@@ -302,10 +302,10 @@ const Footer = () => {
                 </div>
              </div>
            </footer>
-        <div className='text-white border-t border-gray-600 flex items-center justify-evenly py-1'>
+        <div className='text-white border-t border-gray-600 flex sm:flex-row flex-col  items-center justify-evenly sm:py-1 py-5'>
             <img src="https://www.paribucineverse.com/assets/img/logo/logo.svg?v=240820231250" alt="" />
-            <span>© Copyright 2023</span>
-            <ul className='flex items-center gap-x-4 text-sm'>
+            <span className='sm:py-0 py-3'>© Copyright 2023</span>
+            <ul className='flex sm:flex-row flex-col gap-y-3 items-center sm:gap-x-4 gap-x-1 text-sm'>
                 <li>
                     <a href="">Gizlilik Politikası</a>
                 </li>

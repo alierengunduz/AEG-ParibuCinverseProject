@@ -2,20 +2,20 @@ import React from "react";
 import Footer from "../components/Footer";
 import YakindaPageComp from "../components/YakindaPageComp";
 import {NavLink} from "react-router-dom";
+
+
 const Yakinda = () => {
-
-
  
 
   return (
     <div className="w-full min-h-screen bg-[#121212] py-1">
-      <div className="w-full h-[400px] relative">
-        <img src="/images/cinema.png" alt="" />
-        <span className="absolute top-[50%] left-[47%] text-white text-4xl font-bold tracking-wider">
-          Vizyonda
+      <div className="w-full sm:h-[400px] h-[200px]  relative">
+        <img className="w-full h-full object-cover" src="/images/cinema.png" alt="" />
+        <span className="absolute top-[50%] sm:left-[47%] left-[40%] text-white sm:text-4xl text-2xl font-bold tracking-wider">
+          Yakında
         </span>
       </div>
-      <div className="text-white mt-28 py-2 ml-10 flex items-center gap-x-1">
+      <div className="text-white sm:mt-28 mt-10 py-2 ml-10 flex items-center gap-x-1">
         <img
           src="https://www.paribucineverse.com/assets/img/icons/breadcrumb/home.svg"
           alt=""
@@ -24,14 +24,14 @@ const Yakinda = () => {
           src="https://www.paribucineverse.com/assets/img/icons/breadcrumb/arrow-right.svg"
           alt=""
         />
-        <span className="text-gray-400 font-bold text-lg">Vizyonda</span>
+        <span className="text-gray-400 font-bold text-lg">Yakında</span>
       </div>
-      <div className="text-white flex items-center text-3xl gap-x-5 mt-[50px] ml-10">
+      <div className="text-white flex  items-center gap-y-5 text-3xl gap-x-5 mt-[50px] ml-10">
           <NavLink to="/vizyon">Vizyonda</NavLink>
           <NavLink to="/yakinda">Yakinda</NavLink>
       </div>
-      <div className="text-white mt-24 px-10">
-        <ul className="grid grid-cols-5 gap-5 py-20">
+      <div className="text-white sm:mt-24 mt-1 sm:px-10 px-2">
+        <ul className="grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 sm:gap-5 gap-x-3 sm:gap-y-0 gap-y-10 py-20">
           <YakindaPageComp />
         </ul>
       </div>

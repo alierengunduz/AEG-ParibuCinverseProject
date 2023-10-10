@@ -193,24 +193,24 @@ const CinemaClub = () => {
   ]
 
   return (
-    <div className="w-full min-h-screen text-white bg-[#222222] p-28 flex flex-col gap-y-10">
-      <div className="w-full h-[350px] bg-[#FFFFFF] flex items-center justify-between p-3 rounded-3xl">
-        <div className="w-[30%]">
+    <div className="w-full min-h-screen text-white bg-[#222222] sm:p-28 p-5 flex flex-col gap-y-10">
+      <div className="w-full h-[350px] bg-[#FFFFFF] flex sm:flex-row flex-col items-center justify-between p-3 rounded-3xl">
+        <div className="sm:w-[30%] w-full">
           <img
             src="https://www.paribucineverse.com/assets/img/icons/cgv_cinema_club/cgv_logo_2x.png"
             alt=""
           />
         </div>
-        <div className="flex flex-col items-start justify-center gap-y-10 w-[40%]">
-          <h1 className="text-slate-700">Bitmeyen fayda yapmışlar!</h1>
-          <p className="text-black font-bold">
+        <div className="flex flex-col items-start justify-center gap-y-10 sm:w-[40%] w-full">
+          <h1 className="text-slate-700 sm:text-base text-sm">Bitmeyen fayda yapmışlar!</h1>
+          <p className="text-black font-bold sm:text-base text-sm">
             Her harcamandan %3 CGV Para kazan ve hizmet bedeli ödeme. İndirimli
             3D <br /> gözlüklerin yanında, doğum günü sürprizleri! Herkesten
             önce filmlerin ön <br /> gösterimlerinden ve kampanyalardan sen
             haberdar ol!
           </p>
-          <div className="flex items-center gap-x-5">
-            <button className="text-black border border-gray-700 px-14 py-1 rounded-xl">
+          <div className="flex items-center sm:gap-x-5 gap-x-2">
+            <button className="sm:text-black text-white border border-gray-700 px-14 sm:py-1 py-3 rounded-xl">
               Keşfet
             </button>
             <button className="text-white bg-[#95A724] px-14 py-1 rounded-xl">
@@ -218,7 +218,7 @@ const CinemaClub = () => {
             </button>
           </div>
         </div>
-        <div className="w-[30%]">
+        <div className="w-[30%] sm:flex hidden">
           <img
             src="https://www.paribucineverse.com/assets/img/icons/cgv_cinema_club/avatar_coin_1x.png"
             className="object-cover"
@@ -226,12 +226,12 @@ const CinemaClub = () => {
           />
         </div>
       </div>
-      <div className="w-full h-[300px] p-1 flex flex-col gap-y-20">
-        <div className="w-full flex items-center justify-between">
-          <h1 className="text-3xl font-bold tracking-wider">
+      <div className="w-full h-[300px] p-1 sm:flex flex-col hidden gap-y-20">
+        <div className="w-full flex items-end justify-between ">
+          <h1 className="sm:text-3xl text-xl font-bold tracking-wider ">
             Ayrıcalıklı Salonlar
           </h1>
-          <a className="underline text-xl font-bold tracking-wider" href="">
+          <a className="underline sm:text-xl text-sm font-bold tracking-wider" href="">
             Tümü
           </a>
         </div>
@@ -248,12 +248,12 @@ const CinemaClub = () => {
       <div className="mt-36  rounded-3xl h-[275px] bg-[#2E2E2E] flex items-center justify-between px-10 py-1">
         <div className="flex flex-col items-center justify-around gap-y-10">
             <h1 className="text-3xl font-bold tracking-wider">Mobil Uygulamamızı <br /> Keşfedin!</h1>
-            <div className="flex items-center gap-x-4">
-                <img src="https://www.paribucineverse.com/assets/img/icons/store/google_play_2x.png" alt="" />
-                <img src="https://www.paribucineverse.com/assets/img/icons/store/app_store_2x.png" alt="" />
+            <div className="flex items-center sm:gap-x-4 gap-x-3">
+                <img className="w-28 h-14" src="https://www.paribucineverse.com/assets/img/icons/store/google_play_2x.png" alt="" />
+                <img className="w-28 h-14" src="https://www.paribucineverse.com/assets/img/icons/store/app_store_2x.png" alt="" />
             </div>
         </div>
-        <div className="flex items-center gap-x-5 mb-6">
+        <div className="flex items-center sm:gap-x-5 gap-x-2 mb-6">
             <img src="https://www.paribucineverse.com/assets/img/icons/store/new/phone_3x.png" alt="" />
             <img src="https://www.paribucineverse.com/assets/img/icons/store/new/phone_avatar_3x.png" alt="" />
         </div>

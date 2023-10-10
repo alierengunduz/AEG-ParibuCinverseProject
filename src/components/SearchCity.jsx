@@ -7,7 +7,7 @@ const SearchCity = () => {
 
 
   return (
-    <div className='w-[12rem] h-[2.5rem]'>
+    <div className='w-[15rem] sm:h-[3rem] h-[2.5rem]'>
          <div className="relative w-full h-full">
           <input
             value={search} 
@@ -16,7 +16,7 @@ const SearchCity = () => {
             placeholder="Salon ara..."
             className="bg-gray-600 rounded-md text-white w-full h-full pl-10"
           />
-          <FcSearch className="absolute left-1 top-[13%]" size={25} />
+          <FcSearch className="absolute left-1 top-[24%]" size={25} />
         </div>
     </div>
   )

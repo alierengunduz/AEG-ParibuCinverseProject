@@ -20,13 +20,13 @@ useEffect(() => {
 
   return (
     <div className="w-full min-h-screen bg-[#121212] text-white py-1">
-          <div className="w-full h-[400px] relative">
-        <img src="https://www.paribucineverse.com/assets/img/page-exclusive-halls/ayricalik_salonlar_hero_banner.jpg" alt="" />
-        <span className="absolute top-[50%] left-[47%] text-white text-4xl font-bold tracking-wider">
+          <div className="w-full sm:h-[400px] h-[200px] relative">
+        <img className='w-full h-full object-cover' src="https://www.paribucineverse.com/assets/img/page-exclusive-halls/ayricalik_salonlar_hero_banner.jpg" alt="" />
+        <span className="absolute top-[50%] sm:left-[47%] left-[23%] text-white sm:text-4xl text-2xl font-bold tracking-wider">
         Ayrıcalıklı Salonlar
         </span>
       </div>
-      <div className="text-white  py-2 ml-10 flex items-center gap-x-1">
+      <div className="text-white  py-2 ml-10 sm:mt-0 mt-3 flex items-center gap-x-1">
         <img
           src="https://www.paribucineverse.com/assets/img/icons/breadcrumb/home.svg"
           alt=""
@@ -39,7 +39,8 @@ useEffect(() => {
         />
         <span className="text-gray-400 font-bold text-sm">Ayrıcalıklı Salonlar</span>
       </div>
-       <ul className='grid grid-cols-4  gap-y-14 pl-10 pr-4 my-5'>
+
+       <ul className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1  gap-y-14 pl-10 pr-4 my-5'>
         {
             data.map((item) => (
                 <li key={item.id} className='w-[310px] h-[400px] rounded-xl bg-white text-gray-600'>
@@ -64,6 +65,7 @@ useEffect(() => {
             ) )
         }
        </ul>
+       
        <div>
               <Footer />
        </div>

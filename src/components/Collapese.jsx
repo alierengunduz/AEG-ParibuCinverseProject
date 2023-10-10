@@ -72,10 +72,10 @@ const Collapese = () => {
 
   return (
     <div className="flex flex-col items-center justify-start w-full">
-    <h1 className="font-bold text-4xl tracking-wider">
+    <h1 className="font-bold sm:text-4xl text-xl tracking-wider">
       Sıkça Sorulan Sorular
     </h1>
-    <div className="my-10 w-[70%]">
+    <div className="my-10 sm:w-[70%] w-[95%]">
       <style>
         {`
           .custom-icon-color {

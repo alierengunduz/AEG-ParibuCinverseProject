@@ -5,13 +5,14 @@ const GoldClass = () => {
 
   return (
     <div className="w-full min-h-screen bg-[#121212] text-white py-1">
-      <div className="w-full h-[400px]">
+      <div className="w-full sm:h-[400px] h-[200px]">
         <img
+        className="w-full h-full object-cover"
           src="https://www.paribucineverse.com/assets/modules/page-gold-class-lounge/img/gold-class-salon-sizin-hero-banner.jpg"
           alt=""
         />
       </div>
-      <div className="w-[55%] m-auto">
+      <div className=" sm:w-[55%] w-[95%] m-auto">
         <div className="text-white  py-2  flex items-center gap-x-1">
           <img
             src="https://www.paribucineverse.com/assets/img/icons/breadcrumb/home.svg"
@@ -28,11 +29,11 @@ const GoldClass = () => {
           </span>
         </div>
         <div className="mt-5 flex flex-col gap-y-10">
-          <h1 className="text-2xl tracking-wide font-bold">
+          <h1 className="sm:text-2xl text-lg tracking-wide font-bold">
             Konforda sınırı bir üst seviyeye taşıyan rahat ve ferah Gold Class
             salonlarımızda dilediğiniz etkinliği yapabilirsiniz
           </h1>
-          <p className="text-lg">
+          <p className="sm:text-lg text-sm">
             Geniş ve yatabilen koltuklarıyla bambaşka bir konfor sunan Gold
             Class salonlarımız film keyfinin en rahat hali için sizleri
             bekliyor. Kendine ait ayrı bir fuaye alanı olan Gold Class

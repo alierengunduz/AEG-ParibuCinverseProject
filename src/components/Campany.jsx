@@ -10,7 +10,7 @@ function SampleNextArrow({ onClick }) {
   return (
     <div>
       <FaRegArrowAltCircleRight
-        className="text-5xl cursor-pointer font-bold text-white absolute top-[50%] right-0 transform -translate-y-1/2 z-40"
+        className="sm:text-5xl text-4xl cursor-pointer font-bold sm:text-white text-gray-500 absolute sm:top-[40%] top-[107%] sm:-right-10 right-0 transform -translate-y-1/2 z-40"
         onClick={onClick}
       />
     </div>
@@ -21,8 +21,8 @@ function SamplePrevArrow({ onClick }) {
   return (
     <div>
       <FaRegArrowAltCircleLeft
-        className="text-5xl cursor-pointer font-bold text-white absolute top-[50%] left-0 transform -translate-y-1/2 z-40"
-        onClick={onClick}
+         className="sm:text-5xl text-4xl cursor-pointer font-bold sm:text-white text-gray-500 absolute sm:top-[40%] top-[107%] sm:-left-10 left-0 transform -translate-y-1/2 z-40"
+         onClick={onClick}
       />
     </div>
   );
@@ -74,14 +74,31 @@ const Campany = () => {
       setCurrentSlide(next);
       setPreviewSlide(next);
     },
+    responsive: [
+      {
+        breakpoint: 768, // Mobil ekran boyutu için
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024, // Tablet ekran boyutu için
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      // Diğer ekran boyutlarına göre istediğiniz ayarları ekleyebilirsiniz.
+    ],
   };
 
   return (
-    <div className="w-full h-screen bg-[#262626] text-white flex items-start justify-center p-24">
+    <div className="w-full sm:h-screen h-full sm:bg-[#262626] bg-[#121212] text-white flex items-start justify-center sm:p-24 p-2">
       <div className="w-[95%] h-[40rem] p-1">
         <div className="flex items-center justify-between">
-          <h1 className="text-4xl font-bold">Kampanyalar</h1>
-          <Link className="underline text-2xl font-bold" to="/kampanyalar">
+          <h1 className="sm:text-4xl text-2xl font-bold">Kampanyalar</h1>
+          <Link className="underline sm:text-2xl text-lg font-bold" to="/kampanyalar">
             TÜMÜ
           </Link>
         </div>
@@ -90,7 +107,7 @@ const Campany = () => {
             {movies.map((movie, index) => (
               <li key={index} className=" w-full h-[28rem]">
                 <img
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-conver"
                     src={movie.img}
                     alt=""
                     />

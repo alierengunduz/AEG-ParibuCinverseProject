@@ -17,12 +17,12 @@ const ParibuData = ({ data, setData }) => {
 
   return (
  <div>
-       <ul className="grid grid-cols-3 gap-x-10 gap-y-6 w-full">
+       <ul className="grid md:grid-cols-3 p-2 sm:grid-cols-2 grid-cols-1 sm:gap-x-10 gap-x-0 gap-y-6 w-full">
      {data.map((item, index) => {
   return (
     <li
       key={item.id}
-      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  w-[419px] h-[149px]"
+      className="flex flex-col relative gap-y-3 p-3 items-center rounded-2xl bg-white justify-center  sm:w-[419px] w-full h-[149px]"
     >
       <span className="text-black font-bold text-base">{item.title}</span>
       <span className="text-black font-thin text-sm">{item.adress}</span>

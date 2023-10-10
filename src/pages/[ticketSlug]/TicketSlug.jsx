@@ -93,9 +93,9 @@ const TicketSlug = () => {
 
   return (
     <div className="bg-[#181818] w-full min-h-screen flex items-start pt-28 justify-center text-white">
-      <div className="flex flex-col gap-y-16 w-[85%]">
+      <div className="flex flex-col gap-y-16 sm:w-[85%] w-[98%]">
         {/* -------section----1-------- */}
-        <div className="flex items-center justify-between ">
+        <div className="flex sm:flex-row flex-col sm:gap-y-0 gap-y-5 sm:items-center items-start justify-between">
           <div className="flex items-center gap-x-3">
             <span className="border border-[#92A601] py-3 px-5 rounded-full shadow-md shadow-[#92A601]">
               1
@@ -122,17 +122,17 @@ const TicketSlug = () => {
           </div>
         </div>
         {/* -------section----2-------- */}
-        <div className="flex items-center justify-between">
+        <div className="flex sm:flex-row flex-col sm:gap-y-0 gap-y-5 items-center justify-between">
           <span>
             Aşağıda listelenen film, salon ve seans seçeneklerinden tercihini
             yaparak diğer adımlara geçebilirsin.
           </span>
-          <button className="text-gray-500 bg-[#2A2A2A] py-3 px-8 rounded-3xl">
-            Devam Et
+          <button className="text-gray-500 bg-[#2A2A2A] py-3 sm:px-8 px-16 rounded-3xl">
+            Cinema
           </button>
         </div>
         {/* -------section----3-------- */}
-        <div className="flex items-center justify-between gap-x-8 py-20">
+        <div className="flex sm:flex-row flex-col items-center justify-between gap-x-8 py-20">
           {/* -------section 3--------in-------1--------kısmı */}
           <div className="w-[390px] h-[620px] bg-[#1E1E1E] rounded-2xl flex flex-col gap-y-6 p-4">
             <h1>Film Seçimi</h1>
@@ -227,7 +227,7 @@ const TicketSlug = () => {
 
           {/* -------section 3--------in-------2--------kısmı */}
           <div className="w-[470px] h-[620px] bg-[#1E1E1E] rounded-2xl flex flex-col gap-y-6 p-4">
-            <h1>Sinema Seçimi</h1>
+            <h1 className="sm:pl-0 pl-10">Sinema Seçimi</h1>
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-x-3 text-xs text-gray-400">
                 <span>Tümü</span>
@@ -250,7 +250,7 @@ const TicketSlug = () => {
               </div>
             </div>
             {/* ----------------search---------------- */}
-            <div className="flex items-center gap-x-2">
+            <div className=" items-center gap-x-2 hidden">
               <div className="w-[45%]">
                 <ChooseCity />
               </div>
@@ -307,7 +307,7 @@ const TicketSlug = () => {
                 </>
               ) : (
                 <div>
-                  <Lottie animationData={CinemaAnim} />
+                  <Lottie className="w-80 h-80 pl-24" animationData={CinemaAnim} />
                 </div>
               )}
             </ul>
